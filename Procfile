@@ -1,1 +1,1 @@
-web: gunicorn -w 2 -b 0.0.0.0:${PORT} app:app
+web: uvicorn asgi:app --host 0.0.0.0 --port $PORT
