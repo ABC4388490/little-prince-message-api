@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/bin/sh
+set -eu
 cd "$(dirname "$0")"
 PY=".venv/bin/python"
-if [[ ! -x "$PY" ]]; then
+if [ ! -x "$PY" ]; then
   PY="/app/.venv/bin/python"
 fi
 "$PY" -m pip install -q -r requirements.txt

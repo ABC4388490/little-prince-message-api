@@ -1,4 +1,4 @@
 # 见 Railway 文档：仓库里的配置会覆盖控制台里填的 Start Command。
 # Railpack 若只从 Procfile 里抽取了 `uvicorn`，会导致从未执行 pip，.venv 里没有 uvicorn。
 [deploy]
-startCommand = "bash ./start.sh"
+startCommand = "sh ./start.sh"
