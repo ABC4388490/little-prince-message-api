@@ -6,7 +6,7 @@
   - `GET http://localhost:5000/api/messages`
   - `POST http://localhost:5000/api/messages`
 - 新版“B612 连续对话（每个访问者独立记忆）”：
-  - `GET  http://localhost:5000/api/conversations/me?visitorId=...`
+  - `GET  http://localhost:5000/api/conversations/me`
   - `GET  http://localhost:5000/api/conversations/<conversationId>/messages`
   - `POST http://localhost:5000/api/conversations/<conversationId>/messages`
 - OpenAI 风格对话（带 Agent + 可选 RAG；**生产默认由 FastAPI 提供**，返回含 `conclusion` / `analysis` / `citations`）：
@@ -117,7 +117,7 @@ uvicorn asgi:app --reload --host 127.0.0.1 --port 5000
 
 可选：仅 Flask 开发时在同一目录执行 `python .\wsgi.py`。生产（Railway/Render 等）默认 **`Procfile` 使用 `uvicorn asgi:app`**；若坚持用 Gunicorn 纯 WSGI，可改回 `gunicorn wsgi:app`（此时无 FastAPI 层的 `/api/chat`，由 Flask blueprint 提供 chat）。
 
-## 一次性接上 Postgres（跨设备记忆）
+## 一次性接上 Postgres（数据库持久化记忆）
 
 1. 复制配置模板：
 
@@ -139,5 +139,30 @@ copy .\.env.example .\.env
 然后再打开前端页面（The Little Prince 页面），到 B612 页面发送一句话：
 
 - 若后端已配置 `DATABASE_URL`，会走连续对话接口并写入数据库；下次打开仍能看到历史。
-- 若未配置 `DATABASE_URL`，会提示“后端暂不可达（邮局）”，并回退为离线回信（不跨设备记忆）。
+- 若未配置 `DATABASE_URL`，会提示“后端暂不可达（邮局）”，并回退为离线回信（不数据库持久化记忆）。
 
+
+
+## 匿名记忆的访问保护与发布顺序
+
+`POST /api/session` 签发 256 位随机 Bearer 凭证，并生成新的服务器访客身份。
+凭证仅在响应中返回一次；数据库只保存 SHA-256 摘要，有效期一年。
+`/api/profile`、`/api/conversations/me` 和会话消息读写均要求 `Authorization: Bearer <凭证>`。
+会话读写核对服务器身份与会话归属；非本人或不存在的会话统一返回 404，缺少/失效凭证返回 401。
+这些私有响应禁止缓存。`visitorId` 参数不再作为身份认证依据。
+
+启动时会幂等创建 `visitor_sessions`（SQLite/Postgres）及画像表，不删除既有数据。
+旧浏览器随机访客 ID 不能证明归属，因此不提供按旧 ID 自动认领云端数据。
+旧云端数据保留，若需恢复应另行设计能证明所有权的迁移流程；浏览器本地历史保持不变。
+清除浏览器数据或凭证过期后无法自动找回云端身份；这不是账号登录或跨设备同步功能。
+生产必须使用 HTTPS、持久化 Postgres；SQLite 仅用于开发画像，云端连续对话仍要求 Postgres。
+
+发布时先部署本后端，检查 `/health` 中的 `memoryAuthVersion: 1`、会话签发、画像和会话读写，再发布对应前端。
+旧前端的无凭证同步会收到 401，但原 `/api/chat` 与本地聊天记录仍可使用。
+`/health` 的存储字段只说明配置，不代表数据库或模型健康；需实际执行记忆读写验收。
+旧 `/api/messages` 仍是公开留言墙，不用于私有历史，前端不再回退到它。
+`/api/chat` 的接口限流、完整云端删除和用户登录不在此次改动范围内。
+
+测试：`python -m unittest discover -s tests -p test_memory_security.py -v`。
+默认使用临时 SQLite 测试身份与画像，会话 SQL 使用本地适配器；设置专用 `TEST_DATABASE_URL` 后使用真实 Postgres。
+只允许把专用测试数据库填入该变量。GitHub Actions 会运行两种模式，不调用真实模型或下载权重。
