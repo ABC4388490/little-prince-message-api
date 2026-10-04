@@ -4,17 +4,35 @@ from typing import Any
 
 from flask import Blueprint, jsonify, request
 
-from app.api.common import require_messages_json, require_visitor_id
+from app.api.common import require_messages_json
+from app.auth import require_session_visitor
 from app.db import connect_pg, db_url, parse_float, utc_iso_now
 from app.services.llm_service import complete_chat, safe_message_text
 
 bp = Blueprint("conversations", __name__, url_prefix="/api")
 
 
+@bp.after_request
+def private_response(response):
+    response.headers["Cache-Control"] = "no-store"
+    return response
+
+
+def require_conversation_owner(conn, conversation_id, visitor_id):
+    from werkzeug.exceptions import NotFound
+
+    row = conn.execute(
+        "SELECT 1 FROM conversations WHERE id = %s AND visitor_id = %s",
+        (conversation_id, visitor_id),
+    ).fetchone()
+    if not row:
+        raise NotFound("conversation not found")
+
+
 @bp.get("/conversations/me")
 def get_or_create_conversation() -> Any:
     try:
-        visitor_id = require_visitor_id(request)
+        visitor_id = require_session_visitor()
     except ValueError as e:
         return jsonify({"error": str(e)}), 400
 
@@ -23,27 +41,26 @@ def get_or_create_conversation() -> Any:
 
     with connect_pg() as conn:
         row = conn.execute(
-            "SELECT id FROM conversations WHERE visitor_id = %s",
+            """
+            INSERT INTO conversations (visitor_id) VALUES (%s)
+            ON CONFLICT (visitor_id) DO UPDATE SET visitor_id = EXCLUDED.visitor_id
+            RETURNING id
+            """,
             (visitor_id,),
         ).fetchone()
-        if row:
-            return jsonify({"conversationId": int(row[0])})
-
-        cur = conn.execute(
-            "INSERT INTO conversations (visitor_id) VALUES (%s) RETURNING id",
-            (visitor_id,),
-        )
-        new_id = int(cur.fetchone()[0])
         conn.commit()
-        return jsonify({"conversationId": new_id}), 201
+        return jsonify({"conversationId": int(row[0])})
+
 
 
 @bp.get("/conversations/<int:conversation_id>/messages")
 def list_conversation_messages(conversation_id: int) -> Any:
+    visitor_id = require_session_visitor()
     if not db_url():
         return jsonify({"error": "DATABASE_URL is not configured"}), 503
 
     with connect_pg() as conn:
+        require_conversation_owner(conn, conversation_id, visitor_id)
         rows = conn.execute(
             """
             SELECT id, role, content, pos_x, pos_y, created_at
@@ -69,6 +86,7 @@ def list_conversation_messages(conversation_id: int) -> Any:
 
 @bp.post("/conversations/<int:conversation_id>/messages")
 def post_conversation_message(conversation_id: int) -> Any:
+    visitor_id = require_session_visitor()
     if not db_url():
         return jsonify({"error": "DATABASE_URL is not configured"}), 503
 
@@ -90,12 +108,14 @@ def post_conversation_message(conversation_id: int) -> Any:
     if not content:
         return jsonify({"error": "messages[] must contain a user message"}), 400
 
+    # Reject foreign IDs before spending an LLM request.
+    with connect_pg() as conn:
+        require_conversation_owner(conn, conversation_id, visitor_id)
+
     reply = complete_chat(messages)
 
     with connect_pg() as conn:
-        exists = conn.execute("SELECT 1 FROM conversations WHERE id = %s", (conversation_id,)).fetchone()
-        if not exists:
-            return jsonify({"error": "conversation not found"}), 404
+        require_conversation_owner(conn, conversation_id, visitor_id)
 
         cur_user = conn.execute(
             """

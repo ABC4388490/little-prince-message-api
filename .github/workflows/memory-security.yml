@@ -1,0 +1,30 @@
+name: Memory security
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  memory-security:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: memory_test
+          POSTGRES_PASSWORD: local_ci_only
+          POSTGRES_DB: memory_test
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U memory_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install Flask==3.0.3 flask-cors==4.0.1 'psycopg[binary]==3.2.10'
+      - name: SQLite isolation
+        run: python -m unittest discover -s tests -p test_memory_security.py -v
+      - name: PostgreSQL isolation
+        env:
+          TEST_DATABASE_URL: postgresql://memory_test:local_ci_only@localhost:5432/memory_test
+        run: python -m unittest discover -s tests -p test_memory_security.py -v

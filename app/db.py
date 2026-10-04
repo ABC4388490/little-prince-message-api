@@ -29,8 +29,16 @@ def db_path() -> str:
     return os.path.join(_API_ROOT, "messages.db")
 
 
+class ClosingSQLiteConnection(sqlite3.Connection):
+    def __exit__(self, exc_type, exc, tb):
+        try:
+            return super().__exit__(exc_type, exc, tb)
+        finally:
+            self.close()
+
+
 def connect_sqlite() -> sqlite3.Connection:
-    conn = sqlite3.connect(db_path())
+    conn = sqlite3.connect(db_path(), factory=ClosingSQLiteConnection)
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -57,6 +65,31 @@ def init_sqlite() -> None:
         )
         _ensure_column(conn, "messages", "reply", "TEXT")
         _ensure_column(conn, "messages", "replyCreatedAt", "TEXT")
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS user_profiles (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                visitor_id TEXT NOT NULL UNIQUE,
+                emotion TEXT NOT NULL DEFAULT 'neutral',
+                worries TEXT NOT NULL DEFAULT '[]',
+                likes TEXT NOT NULL DEFAULT '[]',
+                keywords TEXT NOT NULL DEFAULT '[]',
+                round_count INTEGER NOT NULL DEFAULT 0,
+                updated_at TEXT NOT NULL,
+                created_at TEXT NOT NULL
+            )
+            """
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS visitor_sessions (
+                token_hash TEXT PRIMARY KEY,
+                visitor_id TEXT NOT NULL UNIQUE,
+                expires_at BIGINT NOT NULL
+            )
+            """
+        )
+        conn.commit()
 
 
 def connect_pg():
@@ -95,6 +128,35 @@ def init_postgres() -> None:
         )
         conn.execute("ALTER TABLE messages_v2 ADD COLUMN IF NOT EXISTS pos_x REAL;")
         conn.execute("ALTER TABLE messages_v2 ADD COLUMN IF NOT EXISTS pos_y REAL;")
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS user_profiles (
+                id BIGSERIAL PRIMARY KEY,
+                visitor_id TEXT NOT NULL UNIQUE,
+                emotion TEXT NOT NULL DEFAULT 'neutral'
+                    CHECK (emotion IN ('neutral', 'low', 'high')),
+                worries JSONB NOT NULL DEFAULT '[]'::jsonb,
+                likes JSONB NOT NULL DEFAULT '[]'::jsonb,
+                keywords JSONB NOT NULL DEFAULT '[]'::jsonb,
+                round_count INTEGER NOT NULL DEFAULT 0
+                    CHECK (round_count >= 0),
+                updated_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+                created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+            );
+            """
+        )
+        conn.execute(
+            "CREATE INDEX IF NOT EXISTS idx_user_profiles_visitor_id ON user_profiles (visitor_id);"
+        )
+        conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS visitor_sessions (
+                token_hash TEXT PRIMARY KEY,
+                visitor_id TEXT NOT NULL UNIQUE,
+                expires_at BIGINT NOT NULL
+            )
+            """
+        )
         conn.commit()
 
 
