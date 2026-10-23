@@ -47,8 +47,8 @@ class RAGOrchestrator:
     def retrieve_and_rank(self, query: str) -> list[dict[str, Any]]:
         return self.retrieval.run(query)
 
-    def build_prompt(self, selected: list[dict[str, Any]]) -> tuple[str, list[dict[str, Any]]]:
-        return self.prompts.build(selected)
+    def build_prompt(self, selected: list[dict[str, Any]], *, conversational: bool = False) -> tuple[str, list[dict[str, Any]]]:
+        return self.prompts.build(selected, conversational=conversational)
 
 
 _default_orch: RAGOrchestrator | None = None

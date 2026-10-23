@@ -47,6 +47,13 @@ def retrieve_candidates(query: str, top_k: int | None = None) -> list[dict[str, 
 
 def lexical_candidates(query: str, top_k: int | None = None) -> list[dict[str, Any]]:
     """Retrieve the same cited corpus without loading a local embedding model."""
+    with open(CHUNK_META_PATH, encoding="utf-8") as source:
+        rows = json.load(source)
+    return rank_lexical_rows(query, rows, top_k)
+
+
+def rank_lexical_rows(query: str, rows: list[dict[str, Any]], top_k: int | None = None) -> list[dict[str, Any]]:
+    """Rank supplied rows without changing the corpus or loading a model."""
     parts = re.findall(r"[a-z0-9_]+|[\u4e00-\u9fff]+", str(query).lower())
     tokens = set()
     for part in parts:
@@ -57,8 +64,6 @@ def lexical_candidates(query: str, top_k: int | None = None) -> list[dict[str, A
                 tokens.update(part[i:i + size] for i in range(len(part) - size + 1))
     if not tokens:
         return []
-    with open(CHUNK_META_PATH, encoding="utf-8") as source:
-        rows = json.load(source)
     scored = []
     for row in rows:
         if not isinstance(row, dict):

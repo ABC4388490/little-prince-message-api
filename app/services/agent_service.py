@@ -50,19 +50,26 @@ _TONE_PHILOSOPHY = "先直接回答问题，需要时解释，不用隐喻或反
 _TONE_GENERAL = "像朋友自然接话，问候就回应问候，不把闲聊变成心理辅导。"
 
 
+def is_book_followup(text: str) -> bool:
+    import re
+    return len(text) <= 100 and bool(re.match(
+        r"^(?:为什么(?:[呢呀啊？?]|$|这样|会|就|还|能)|为何(?:如此|这样)|然后呢|后来呢|那[它他她]|这句话|这段|这在|继续讲|再解释|"
+        r"(?:你刚才|刚才|这|那).{0,25}(?:原话|原文|出处|出自|哪里|哪[一几]章)|(?:出处|出自|哪[一几]章))", text.strip()))
+
+
 def is_book_query(text: str, messages: Sequence[dict[str, str]] = ()) -> bool:
     import re
     book = r"原著|这本书|书[里中]|第.{0,5}章|驯[养服]|点灯人|地理学家|(?:小王子|狐狸|玫瑰|国王|酒鬼|商人|蛇).{0,16}(?:说|为什么|为何|意思|象征|离开)|(?:为什么|为何|怎么).{0,16}(?:狐狸|玫瑰|小王子)"
     if re.search(book, text):
         return True
-    if re.match(r"^(为什么[呢呀啊]?[？?]?$|然后呢|后来呢|那[它他她]|这句话|继续讲|再解释)", text):
+    if is_book_followup(text):
         previous = [m for m in messages if m.get("role") == "user"][:-1]
         # Walk through short follow-ups; stop at a real topic change.
         for m in reversed(previous):
             content = m.get("content", "").strip()
             if re.search(book, content):
                 return True
-            if not re.match(r"^(为什么[呢呀啊]?[？?]?$|然后呢|后来呢|那[它他她]|这句话|继续讲|再解释)", content):
+            if not is_book_followup(content):
                 break
     return False
 
