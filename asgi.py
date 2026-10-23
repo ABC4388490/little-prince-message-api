@@ -18,6 +18,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from starlette.middleware.wsgi import WSGIMiddleware
+from starlette.concurrency import run_in_threadpool
 
 
 def _cors_allow_origins() -> list[str]:
@@ -64,7 +65,7 @@ async def post_api_chat(body: ChatRequestBody):
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e)) from e
     try:
-        return run_chat(msgs)
+        return await run_in_threadpool(run_chat, msgs)
     except ChatUnavailable as e:
         raise HTTPException(status_code=503, detail=str(e)) from e
 
@@ -83,7 +84,7 @@ async def post_api_analyze(body: AnalyzeBody):
     if not effective:
         raise HTTPException(status_code=400, detail="text or lastReply or reply is required")
     try:
-        return run_analyze(effective)
+        return await run_in_threadpool(run_analyze, effective)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e)) from e
 

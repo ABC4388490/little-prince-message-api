@@ -4,4 +4,5 @@ PY=".venv/bin/python"
 if [ ! -x "$PY" ]; then
   PY="/app/.venv/bin/python"
 fi
-"$PY" -m pip install -q -r requirements.txt && exec "$PY" -m uvicorn asgi:app --host 0.0.0.0 --port "${PORT:-5000}"
+# Dependencies are installed during the image build, not when a sleeping service wakes.
+exec "$PY" -m uvicorn asgi:app --host 0.0.0.0 --port "${PORT:-5000}"
