@@ -1,12 +1,3156 @@
 {
+  "default_source_name": "little_prince_reading_notes",
   "chunks": [
-    "小王子住在很小的 B612 星球，有三座火山和一朵玫瑰。他为玫瑰挡风、浇水，却不懂得她骄傲下的脆弱。",
-    "狐狸说：驯服就是建立联系。你若驯服了我，我们就彼此需要；你对我来说将是世界上独一无二的。",
-    "真正重要的东西用眼睛是看不见的，要用心去感受。你为玫瑰花费的时间，使你的玫瑰变得如此重要。",
-    "商人在数星星，说星星属于他，因为他第一个想到要拥有它们。小王子觉得大人常常做奇怪的事。",
-    "点灯人的星球转得太快，他每分钟要点灯和熄灯，没有休息。小王子尊敬他，因为他为别人着想。",
-    "地理学家从不亲自探险，只记录探险家的叙述。小王子明白：知道很多名字，不等于真正认识世界。",
-    "沙漠之所以美丽，是因为在某个角落藏着一口井。孤独里也可能藏着被理解的希望。",
-    "离开玫瑰之后，小王子在旅途中慢慢明白：爱意味着责任，是在对方需要时愿意在场。"
+    {
+      "chunk_id": "passage_01_01",
+      "chunk_type": "passage",
+      "chapter": "第一章 蟒蛇与大人的眼光",
+      "content": "【情节梗概，非逐字引文】叙述者小时候读到蟒蛇吞下猎物，画了一条正在消化大象的蟒蛇。",
+      "topic": [
+        "蟒蛇与大人的眼光"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 蟒蛇与大人的眼光 | 第一章 蟒蛇与大人的眼光 | passage | 【情节梗概，非逐字引文】叙述者小时候读到蟒蛇吞下猎物，画了一条正在消化大象的蟒蛇。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_01_02",
+      "chunk_type": "passage",
+      "chapter": "第一章 蟒蛇与大人的眼光",
+      "content": "【情节梗概，非逐字引文】大人把叙述者的第一幅画看成帽子；他又画出蟒蛇内部，帮助他们理解。",
+      "topic": [
+        "蟒蛇与大人的眼光"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 蟒蛇与大人的眼光 | 第一章 蟒蛇与大人的眼光 | passage | 【情节梗概，非逐字引文】大人把叙述者的第一幅画看成帽子；他又画出蟒蛇内部，帮助他们理解。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_01_03",
+      "chunk_type": "passage",
+      "chapter": "第一章 蟒蛇与大人的眼光",
+      "content": "【情节梗概，非逐字引文】大人劝叙述者放弃画画，学习地理、历史、算术和语法。第一章的画里是蟒蛇与大象，不是箱子里的象。",
+      "topic": [
+        "蟒蛇与大人的眼光"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 蟒蛇与大人的眼光 | 第一章 蟒蛇与大人的眼光 | passage | 【情节梗概，非逐字引文】大人劝叙述者放弃画画，学习地理、历史、算术和语法。第一章的画里是蟒蛇与大象，不是箱子里的象。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_01_04",
+      "chunk_type": "passage",
+      "chapter": "第一章 蟒蛇与大人的眼光",
+      "content": "【情节梗概，非逐字引文】叙述者后来学会驾驶飞机；地理知识在飞行中派上了用场。",
+      "topic": [
+        "蟒蛇与大人的眼光"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 蟒蛇与大人的眼光 | 第一章 蟒蛇与大人的眼光 | passage | 【情节梗概，非逐字引文】叙述者后来学会驾驶飞机；地理知识在飞行中派上了用场。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_01_05",
+      "chunk_type": "passage",
+      "chapter": "第一章 蟒蛇与大人的眼光",
+      "content": "【情节梗概，非逐字引文】叙述者仍用蟒蛇的画试探遇见的大人；如果对方只看到帽子，他就改聊大人喜欢的话题。",
+      "topic": [
+        "蟒蛇与大人的眼光"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 蟒蛇与大人的眼光 | 第一章 蟒蛇与大人的眼光 | passage | 【情节梗概，非逐字引文】叙述者仍用蟒蛇的画试探遇见的大人；如果对方只看到帽子，他就改聊大人喜欢的话题。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_02_01",
+      "chunk_type": "passage",
+      "chapter": "第二章 沙漠相遇与画羊",
+      "content": "【情节梗概，非逐字引文】飞行员的飞机在撒哈拉沙漠发生故障，他独自尝试修理，饮水有限。",
+      "topic": [
+        "沙漠相遇与画羊"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 沙漠相遇与画羊 | 第二章 沙漠相遇与画羊 | passage | 【情节梗概，非逐字引文】飞行员的飞机在撒哈拉沙漠发生故障，他独自尝试修理，饮水有限。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_02_02",
+      "chunk_type": "passage",
+      "chapter": "第二章 沙漠相遇与画羊",
+      "content": "【情节梗概，非逐字引文】清晨，一个认真看着飞行员的小男孩请他画一只羊。",
+      "topic": [
+        "沙漠相遇与画羊"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 沙漠相遇与画羊 | 第二章 沙漠相遇与画羊 | passage | 【情节梗概，非逐字引文】清晨，一个认真看着飞行员的小男孩请他画一只羊。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_02_03",
+      "chunk_type": "passage",
+      "chapter": "第二章 沙漠相遇与画羊",
+      "content": "【情节梗概，非逐字引文】小男孩认出了飞行员画里的蟒蛇和大象，但仍坚持想要一只羊。",
+      "topic": [
+        "沙漠相遇与画羊"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 沙漠相遇与画羊 | 第二章 沙漠相遇与画羊 | passage | 【情节梗概，非逐字引文】小男孩认出了飞行员画里的蟒蛇和大象，但仍坚持想要一只羊。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_02_04",
+      "chunk_type": "passage",
+      "chapter": "第二章 沙漠相遇与画羊",
+      "content": "【情节梗概，非逐字引文】飞行员画出的几只羊都没让小男孩满意，最后画了一个箱子，说羊在里面。",
+      "topic": [
+        "沙漠相遇与画羊"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 沙漠相遇与画羊 | 第二章 沙漠相遇与画羊 | passage | 【情节梗概，非逐字引文】飞行员画出的几只羊都没让小男孩满意，最后画了一个箱子，说羊在里面。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_02_05",
+      "chunk_type": "passage",
+      "chapter": "第二章 沙漠相遇与画羊",
+      "content": "【情节梗概，非逐字引文】小王子满意地接受了箱子的画，并认真询问羊吃草的问题；两人因此相识。",
+      "topic": [
+        "沙漠相遇与画羊"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 沙漠相遇与画羊 | 第二章 沙漠相遇与画羊 | passage | 【情节梗概，非逐字引文】小王子满意地接受了箱子的画，并认真询问羊吃草的问题；两人因此相识。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_03_01",
+      "chunk_type": "passage",
+      "chapter": "第三章 来自另一颗星球",
+      "content": "【情节梗概，非逐字引文】小王子问飞行员的飞机是什么，并对他从天上来感到好奇。",
+      "topic": [
+        "来自另一颗星球"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 来自另一颗星球 | 第三章 来自另一颗星球 | passage | 【情节梗概，非逐字引文】小王子问飞行员的飞机是什么，并对他从天上来感到好奇。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_03_02",
+      "chunk_type": "passage",
+      "chapter": "第三章 来自另一颗星球",
+      "content": "【情节梗概，非逐字引文】飞行员从小王子的提问中逐渐猜到，他可能来自另一颗星球。",
+      "topic": [
+        "来自另一颗星球"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 来自另一颗星球 | 第三章 来自另一颗星球 | passage | 【情节梗概，非逐字引文】飞行员从小王子的提问中逐渐猜到，他可能来自另一颗星球。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_03_03",
+      "chunk_type": "passage",
+      "chapter": "第三章 来自另一颗星球",
+      "content": "【情节梗概，非逐字引文】小王子把装着羊的箱子当成羊夜里的房子，珍惜那幅画。",
+      "topic": [
+        "来自另一颗星球"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 来自另一颗星球 | 第三章 来自另一颗星球 | passage | 【情节梗概，非逐字引文】小王子把装着羊的箱子当成羊夜里的房子，珍惜那幅画。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_03_04",
+      "chunk_type": "passage",
+      "chapter": "第三章 来自另一颗星球",
+      "content": "【情节梗概，非逐字引文】飞行员提出给羊一根绳子和木桩，以免羊跑丢；小王子觉得拴住羊的想法很奇怪。",
+      "topic": [
+        "来自另一颗星球"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 来自另一颗星球 | 第三章 来自另一颗星球 | passage | 【情节梗概，非逐字引文】飞行员提出给羊一根绳子和木桩，以免羊跑丢；小王子觉得拴住羊的想法很奇怪。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_03_05",
+      "chunk_type": "passage",
+      "chapter": "第三章 来自另一颗星球",
+      "content": "【情节梗概，非逐字引文】小王子说自己的家很小，羊即使一直向前走，也走不了很远。",
+      "topic": [
+        "来自另一颗星球"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 来自另一颗星球 | 第三章 来自另一颗星球 | passage | 【情节梗概，非逐字引文】小王子说自己的家很小，羊即使一直向前走，也走不了很远。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_04_01",
+      "chunk_type": "passage",
+      "chapter": "第四章 B612与数字",
+      "content": "【情节梗概，非逐字引文】飞行员认为小王子来自编号为B612的小行星，星球很小。",
+      "topic": [
+        "B612与数字"
+      ],
+      "role": [
+        "飞行员",
+        "天文学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 天文学家 B612与数字 | 第四章 B612与数字 | passage | 【情节梗概，非逐字引文】飞行员认为小王子来自编号为B612的小行星，星球很小。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_04_02",
+      "chunk_type": "passage",
+      "chapter": "第四章 B612与数字",
+      "content": "【情节梗概，非逐字引文】一位土耳其天文学家曾报告发现B612，但最初因衣着没有得到听众信任。",
+      "topic": [
+        "B612与数字"
+      ],
+      "role": [
+        "飞行员",
+        "天文学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 天文学家 B612与数字 | 第四章 B612与数字 | passage | 【情节梗概，非逐字引文】一位土耳其天文学家曾报告发现B612，但最初因衣着没有得到听众信任。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_04_03",
+      "chunk_type": "passage",
+      "chapter": "第四章 B612与数字",
+      "content": "【情节梗概，非逐字引文】天文学家换上欧洲式服装再次报告后，听众接受了他的发现；叙述者借此批评大人看重外表。",
+      "topic": [
+        "B612与数字"
+      ],
+      "role": [
+        "飞行员",
+        "天文学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 天文学家 B612与数字 | 第四章 B612与数字 | passage | 【情节梗概，非逐字引文】天文学家换上欧洲式服装再次报告后，听众接受了他的发现；叙述者借此批评大人看重外表。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_04_04",
+      "chunk_type": "passage",
+      "chapter": "第四章 B612与数字",
+      "content": "【情节梗概，非逐字引文】叙述者说，大人认识一个朋友时常先问年龄、收入等数字，很少问对方的声音或喜欢的游戏。",
+      "topic": [
+        "B612与数字"
+      ],
+      "role": [
+        "飞行员",
+        "天文学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 天文学家 B612与数字 | 第四章 B612与数字 | passage | 【情节梗概，非逐字引文】叙述者说，大人认识一个朋友时常先问年龄、收入等数字，很少问对方的声音或喜欢的游戏。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_04_05",
+      "chunk_type": "passage",
+      "chapter": "第四章 B612与数字",
+      "content": "【情节梗概，非逐字引文】叙述者举房子和花的例子，说明数字不能替代感受，也不能充分描述一个人。",
+      "topic": [
+        "B612与数字"
+      ],
+      "role": [
+        "飞行员",
+        "天文学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 天文学家 B612与数字 | 第四章 B612与数字 | passage | 【情节梗概，非逐字引文】叙述者举房子和花的例子，说明数字不能替代感受，也不能充分描述一个人。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_04_06",
+      "chunk_type": "passage",
+      "chapter": "第四章 B612与数字",
+      "content": "【情节梗概，非逐字引文】叙述者写下对小王子的回忆，是为了不忘记这位朋友；他不愿只用数字来讲故事。",
+      "topic": [
+        "B612与数字"
+      ],
+      "role": [
+        "飞行员",
+        "天文学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 天文学家 B612与数字 | 第四章 B612与数字 | passage | 【情节梗概，非逐字引文】叙述者写下对小王子的回忆，是为了不忘记这位朋友；他不愿只用数字来讲故事。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_05_01",
+      "chunk_type": "passage",
+      "chapter": "第五章 猴面包树",
+      "content": "【情节梗概，非逐字引文】小王子的星球上既有有用的植物，也有需要清理的猴面包树幼苗。",
+      "topic": [
+        "猴面包树"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 猴面包树 | 第五章 猴面包树 | passage | 【情节梗概，非逐字引文】小王子的星球上既有有用的植物，也有需要清理的猴面包树幼苗。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_05_02",
+      "chunk_type": "passage",
+      "chapter": "第五章 猴面包树",
+      "content": "【情节梗概，非逐字引文】猴面包树小时候不易与别的幼苗区分，等能认出来就应及时拔掉。",
+      "topic": [
+        "猴面包树"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 猴面包树 | 第五章 猴面包树 | passage | 【情节梗概，非逐字引文】猴面包树小时候不易与别的幼苗区分，等能认出来就应及时拔掉。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_05_03",
+      "chunk_type": "passage",
+      "chapter": "第五章 猴面包树",
+      "content": "【情节梗概，非逐字引文】如果任由猴面包树长大，它们的根可能挤坏小小的星球。",
+      "topic": [
+        "猴面包树"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 猴面包树 | 第五章 猴面包树 | passage | 【情节梗概，非逐字引文】如果任由猴面包树长大，它们的根可能挤坏小小的星球。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_05_04",
+      "chunk_type": "passage",
+      "chapter": "第五章 猴面包树",
+      "content": "【情节梗概，非逐字引文】小王子把整理星球当作每天的日常工作，认真清理不该留下的幼苗。",
+      "topic": [
+        "猴面包树"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 猴面包树 | 第五章 猴面包树 | passage | 【情节梗概，非逐字引文】小王子把整理星球当作每天的日常工作，认真清理不该留下的幼苗。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_05_05",
+      "chunk_type": "passage",
+      "chapter": "第五章 猴面包树",
+      "content": "【情节梗概，非逐字引文】小王子讲到有人疏忽清理猴面包树的后果，飞行员因此画图提醒孩子注意。",
+      "topic": [
+        "猴面包树"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 猴面包树 | 第五章 猴面包树 | passage | 【情节梗概，非逐字引文】小王子讲到有人疏忽清理猴面包树的后果，飞行员因此画图提醒孩子注意。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_06_01",
+      "chunk_type": "passage",
+      "chapter": "第六章 日落",
+      "content": "【情节梗概，非逐字引文】小王子喜欢看日落；在自己的小星球上，挪动椅子就能再次看到夕阳。",
+      "topic": [
+        "日落"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 日落 | 第六章 日落 | passage | 【情节梗概，非逐字引文】小王子喜欢看日落；在自己的小星球上，挪动椅子就能再次看到夕阳。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_06_02",
+      "chunk_type": "passage",
+      "chapter": "第六章 日落",
+      "content": "【情节梗概，非逐字引文】飞行员告诉小王子，在地球上想看日落，需要等到合适的时间。",
+      "topic": [
+        "日落"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 日落 | 第六章 日落 | passage | 【情节梗概，非逐字引文】飞行员告诉小王子，在地球上想看日落，需要等到合适的时间。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_06_03",
+      "chunk_type": "passage",
+      "chapter": "第六章 日落",
+      "content": "【情节梗概，非逐字引文】小王子起初忘记自己不在原来的星球，对必须等待感到意外。",
+      "topic": [
+        "日落"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 日落 | 第六章 日落 | passage | 【情节梗概，非逐字引文】小王子起初忘记自己不在原来的星球，对必须等待感到意外。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_06_04",
+      "chunk_type": "passage",
+      "chapter": "第六章 日落",
+      "content": "【情节梗概，非逐字引文】小王子提到，人忧伤的时候会喜欢看日落。",
+      "topic": [
+        "日落"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 日落 | 第六章 日落 | passage | 【情节梗概，非逐字引文】小王子提到，人忧伤的时候会喜欢看日落。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_06_05",
+      "chunk_type": "passage",
+      "chapter": "第六章 日落",
+      "content": "【情节梗概，非逐字引文】飞行员问起小王子曾经反复看日落时是否很忧伤，小王子没有回答。",
+      "topic": [
+        "日落"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 日落 | 第六章 日落 | passage | 【情节梗概，非逐字引文】飞行员问起小王子曾经反复看日落时是否很忧伤，小王子没有回答。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_07_01",
+      "chunk_type": "passage",
+      "chapter": "第七章 羊与花的刺",
+      "content": "【情节梗概，非逐字引文】小王子担心羊会吃花，追问花长刺有什么用。",
+      "topic": [
+        "羊与花的刺"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 玫瑰 羊与花的刺 | 第七章 羊与花的刺 | passage | 【情节梗概，非逐字引文】小王子担心羊会吃花，追问花长刺有什么用。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_07_02",
+      "chunk_type": "passage",
+      "chapter": "第七章 羊与花的刺",
+      "content": "【情节梗概，非逐字引文】飞行员正忙着修理飞机，起初没有认真回答小王子关于花的问题。",
+      "topic": [
+        "羊与花的刺"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 玫瑰 羊与花的刺 | 第七章 羊与花的刺 | passage | 【情节梗概，非逐字引文】飞行员正忙着修理飞机，起初没有认真回答小王子关于花的问题。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_07_03",
+      "chunk_type": "passage",
+      "chapter": "第七章 羊与花的刺",
+      "content": "【情节梗概，非逐字引文】小王子对大人只顾所谓正经事感到不满；他在乎的是自己那朵花的安危。",
+      "topic": [
+        "羊与花的刺"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 玫瑰 羊与花的刺 | 第七章 羊与花的刺 | passage | 【情节梗概，非逐字引文】小王子对大人只顾所谓正经事感到不满；他在乎的是自己那朵花的安危。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_07_04",
+      "chunk_type": "passage",
+      "chapter": "第七章 羊与花的刺",
+      "content": "【情节梗概，非逐字引文】小王子想到花可能被羊吃掉，伤心地哭了起来，飞行员停下工作安慰他。",
+      "topic": [
+        "羊与花的刺"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 玫瑰 羊与花的刺 | 第七章 羊与花的刺 | passage | 【情节梗概，非逐字引文】小王子想到花可能被羊吃掉，伤心地哭了起来，飞行员停下工作安慰他。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_07_05",
+      "chunk_type": "passage",
+      "chapter": "第七章 羊与花的刺",
+      "content": "【情节梗概，非逐字引文】飞行员答应为羊画嘴套，并想办法帮助小王子保护花。",
+      "topic": [
+        "羊与花的刺"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 玫瑰 羊与花的刺 | 第七章 羊与花的刺 | passage | 【情节梗概，非逐字引文】飞行员答应为羊画嘴套，并想办法帮助小王子保护花。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_08_01",
+      "chunk_type": "passage",
+      "chapter": "第八章 玫瑰的出现",
+      "content": "【情节梗概，非逐字引文】一粒不知从哪里来的种子在星球上发芽，后来开出一朵精心打扮的花。",
+      "topic": [
+        "玫瑰的出现"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰的出现 | 第八章 玫瑰的出现 | passage | 【情节梗概，非逐字引文】一粒不知从哪里来的种子在星球上发芽，后来开出一朵精心打扮的花。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_08_02",
+      "chunk_type": "passage",
+      "chapter": "第八章 玫瑰的出现",
+      "content": "【情节梗概，非逐字引文】玫瑰在小王子面前展现美丽，也提出浇水、挡风等照料要求。",
+      "topic": [
+        "玫瑰的出现"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰的出现 | 第八章 玫瑰的出现 | passage | 【情节梗概，非逐字引文】玫瑰在小王子面前展现美丽，也提出浇水、挡风等照料要求。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_08_03",
+      "chunk_type": "passage",
+      "chapter": "第八章 玫瑰的出现",
+      "content": "【情节梗概，非逐字引文】玫瑰提到老虎和自己的刺，却又担心穿堂风；她并不是无所畏惧。",
+      "topic": [
+        "玫瑰的出现"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰的出现 | 第八章 玫瑰的出现 | passage | 【情节梗概，非逐字引文】玫瑰提到老虎和自己的刺，却又担心穿堂风；她并不是无所畏惧。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_08_04",
+      "chunk_type": "passage",
+      "chapter": "第八章 玫瑰的出现",
+      "content": "【情节梗概，非逐字引文】小王子认真照料玫瑰，却因她的话感到困惑，没能理解她。",
+      "topic": [
+        "玫瑰的出现"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰的出现 | 第八章 玫瑰的出现 | passage | 【情节梗概，非逐字引文】小王子认真照料玫瑰，却因她的话感到困惑，没能理解她。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_08_05",
+      "chunk_type": "passage",
+      "chapter": "第八章 玫瑰的出现",
+      "content": "【情节梗概，非逐字引文】小王子后来回想，自己本该更多留意玫瑰带来的芬芳和照料中的感受，而不只听她的话。",
+      "topic": [
+        "玫瑰的出现"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰的出现 | 第八章 玫瑰的出现 | passage | 【情节梗概，非逐字引文】小王子后来回想，自己本该更多留意玫瑰带来的芬芳和照料中的感受，而不只听她的话。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_08_06",
+      "chunk_type": "passage",
+      "chapter": "第八章 玫瑰的出现",
+      "content": "【情节梗概，非逐字引文】小王子承认，那时自己还太年轻，不懂怎样爱她。",
+      "topic": [
+        "玫瑰的出现"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰的出现 | 第八章 玫瑰的出现 | passage | 【情节梗概，非逐字引文】小王子承认，那时自己还太年轻，不懂怎样爱她。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_09_01",
+      "chunk_type": "passage",
+      "chapter": "第九章 离开B612",
+      "content": "【情节梗概，非逐字引文】离开之前，小王子仔细清理火山，并拔去剩下的猴面包树幼苗。",
+      "topic": [
+        "离开B612"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 离开B612 | 第九章 离开B612 | passage | 【情节梗概，非逐字引文】离开之前，小王子仔细清理火山，并拔去剩下的猴面包树幼苗。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_09_02",
+      "chunk_type": "passage",
+      "chapter": "第九章 离开B612",
+      "content": "【情节梗概，非逐字引文】小王子最后一次给玫瑰浇水，准备为她罩上玻璃罩。",
+      "topic": [
+        "离开B612"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 离开B612 | 第九章 离开B612 | passage | 【情节梗概，非逐字引文】小王子最后一次给玫瑰浇水，准备为她罩上玻璃罩。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_09_03",
+      "chunk_type": "passage",
+      "chapter": "第九章 离开B612",
+      "content": "【情节梗概，非逐字引文】玫瑰向小王子道歉，也表达了对他的爱与祝福。",
+      "topic": [
+        "离开B612"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 离开B612 | 第九章 离开B612 | passage | 【情节梗概，非逐字引文】玫瑰向小王子道歉，也表达了对他的爱与祝福。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_09_04",
+      "chunk_type": "passage",
+      "chapter": "第九章 离开B612",
+      "content": "【情节梗概，非逐字引文】玫瑰表示不再需要玻璃罩，愿意面对空气、昆虫和蝴蝶带来的生活。",
+      "topic": [
+        "离开B612"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 离开B612 | 第九章 离开B612 | passage | 【情节梗概，非逐字引文】玫瑰表示不再需要玻璃罩，愿意面对空气、昆虫和蝴蝶带来的生活。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_09_05",
+      "chunk_type": "passage",
+      "chapter": "第九章 离开B612",
+      "content": "【情节梗概，非逐字引文】玫瑰催小王子离开，是因为不愿让他看见自己流泪；他随后踏上旅途。",
+      "topic": [
+        "离开B612"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 离开B612 | 第九章 离开B612 | passage | 【情节梗概，非逐字引文】玫瑰催小王子离开，是因为不愿让他看见自己流泪；他随后踏上旅途。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_10_01",
+      "chunk_type": "passage",
+      "chapter": "第十章 国王",
+      "content": "【情节梗概，非逐字引文】小王子遇见一位国王，国王把来到自己面前的人当作臣民。",
+      "topic": [
+        "国王"
+      ],
+      "role": [
+        "小王子",
+        "国王"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 国王 国王 | 第十章 国王 | passage | 【情节梗概，非逐字引文】小王子遇见一位国王，国王把来到自己面前的人当作臣民。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_10_02",
+      "chunk_type": "passage",
+      "chapter": "第十章 国王",
+      "content": "【情节梗概，非逐字引文】国王认为命令应当合乎情理，只要求在条件合适时才能发生的事。",
+      "topic": [
+        "国王"
+      ],
+      "role": [
+        "小王子",
+        "国王"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 国王 国王 | 第十章 国王 | passage | 【情节梗概，非逐字引文】国王认为命令应当合乎情理，只要求在条件合适时才能发生的事。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_10_03",
+      "chunk_type": "passage",
+      "chapter": "第十章 国王",
+      "content": "【情节梗概，非逐字引文】小王子想看日落，国王表示要等到合适的时候再下令。",
+      "topic": [
+        "国王"
+      ],
+      "role": [
+        "小王子",
+        "国王"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 国王 国王 | 第十章 国王 | passage | 【情节梗概，非逐字引文】小王子想看日落，国王表示要等到合适的时候再下令。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_10_04",
+      "chunk_type": "passage",
+      "chapter": "第十章 国王",
+      "content": "【情节梗概，非逐字引文】国王试图给小王子安排职位，谈到审判自己比审判别人更困难。",
+      "topic": [
+        "国王"
+      ],
+      "role": [
+        "小王子",
+        "国王"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 国王 国王 | 第十章 国王 | passage | 【情节梗概，非逐字引文】国王试图给小王子安排职位，谈到审判自己比审判别人更困难。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_10_05",
+      "chunk_type": "passage",
+      "chapter": "第十章 国王",
+      "content": "【情节梗概，非逐字引文】小王子仍决定离开；国王在他离去时宣布任命他为大使。",
+      "topic": [
+        "国王"
+      ],
+      "role": [
+        "小王子",
+        "国王"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 国王 国王 | 第十章 国王 | passage | 【情节梗概，非逐字引文】小王子仍决定离开；国王在他离去时宣布任命他为大使。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_11_01",
+      "chunk_type": "passage",
+      "chapter": "第十一章 爱慕虚荣的人",
+      "content": "【情节梗概，非逐字引文】爱慕虚荣的人把小王子当作崇拜者，希望他鼓掌。",
+      "topic": [
+        "爱慕虚荣的人"
+      ],
+      "role": [
+        "小王子",
+        "爱慕虚荣者"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 爱慕虚荣者 爱慕虚荣的人 | 第十一章 爱慕虚荣的人 | passage | 【情节梗概，非逐字引文】爱慕虚荣的人把小王子当作崇拜者，希望他鼓掌。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_11_02",
+      "chunk_type": "passage",
+      "chapter": "第十一章 爱慕虚荣的人",
+      "content": "【情节梗概，非逐字引文】小王子拍手时，虚荣者就举帽致意，两人重复了这个动作。",
+      "topic": [
+        "爱慕虚荣的人"
+      ],
+      "role": [
+        "小王子",
+        "爱慕虚荣者"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 爱慕虚荣者 爱慕虚荣的人 | 第十一章 爱慕虚荣的人 | passage | 【情节梗概，非逐字引文】小王子拍手时，虚荣者就举帽致意，两人重复了这个动作。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_11_03",
+      "chunk_type": "passage",
+      "chapter": "第十一章 爱慕虚荣的人",
+      "content": "【情节梗概，非逐字引文】虚荣者想得到自己最漂亮、穿得最好、最富有和最聪明的赞美。",
+      "topic": [
+        "爱慕虚荣的人"
+      ],
+      "role": [
+        "小王子",
+        "爱慕虚荣者"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 爱慕虚荣者 爱慕虚荣的人 | 第十一章 爱慕虚荣的人 | passage | 【情节梗概，非逐字引文】虚荣者想得到自己最漂亮、穿得最好、最富有和最聪明的赞美。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_11_04",
+      "chunk_type": "passage",
+      "chapter": "第十一章 爱慕虚荣的人",
+      "content": "【情节梗概，非逐字引文】小王子指出这颗星球只有虚荣者一个人，对这种比较感到疑惑。",
+      "topic": [
+        "爱慕虚荣的人"
+      ],
+      "role": [
+        "小王子",
+        "爱慕虚荣者"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 爱慕虚荣者 爱慕虚荣的人 | 第十一章 爱慕虚荣的人 | passage | 【情节梗概，非逐字引文】小王子指出这颗星球只有虚荣者一个人，对这种比较感到疑惑。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_11_05",
+      "chunk_type": "passage",
+      "chapter": "第十一章 爱慕虚荣的人",
+      "content": "【情节梗概，非逐字引文】虚荣者只听得见赞美，无法认真回应其他问题，小王子离开了他。",
+      "topic": [
+        "爱慕虚荣的人"
+      ],
+      "role": [
+        "小王子",
+        "爱慕虚荣者"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 爱慕虚荣者 爱慕虚荣的人 | 第十一章 爱慕虚荣的人 | passage | 【情节梗概，非逐字引文】虚荣者只听得见赞美，无法认真回应其他问题，小王子离开了他。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_12_01",
+      "chunk_type": "passage",
+      "chapter": "第十二章 酒鬼",
+      "content": "【情节梗概，非逐字引文】小王子遇见一位坐在空瓶和满瓶之间的酒鬼。",
+      "topic": [
+        "酒鬼"
+      ],
+      "role": [
+        "小王子",
+        "酒鬼"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 酒鬼 酒鬼 | 第十二章 酒鬼 | passage | 【情节梗概，非逐字引文】小王子遇见一位坐在空瓶和满瓶之间的酒鬼。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_12_02",
+      "chunk_type": "passage",
+      "chapter": "第十二章 酒鬼",
+      "content": "【情节梗概，非逐字引文】酒鬼说自己喝酒是为了忘记。",
+      "topic": [
+        "酒鬼"
+      ],
+      "role": [
+        "小王子",
+        "酒鬼"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 酒鬼 酒鬼 | 第十二章 酒鬼 | passage | 【情节梗概，非逐字引文】酒鬼说自己喝酒是为了忘记。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_12_03",
+      "chunk_type": "passage",
+      "chapter": "第十二章 酒鬼",
+      "content": "【情节梗概，非逐字引文】小王子继续问，酒鬼说想忘记的是羞愧。",
+      "topic": [
+        "酒鬼"
+      ],
+      "role": [
+        "小王子",
+        "酒鬼"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 酒鬼 酒鬼 | 第十二章 酒鬼 | passage | 【情节梗概，非逐字引文】小王子继续问，酒鬼说想忘记的是羞愧。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_12_04",
+      "chunk_type": "passage",
+      "chapter": "第十二章 酒鬼",
+      "content": "【情节梗概，非逐字引文】让酒鬼羞愧的正是喝酒这件事，解释因此绕回起点。",
+      "topic": [
+        "酒鬼"
+      ],
+      "role": [
+        "小王子",
+        "酒鬼"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 酒鬼 酒鬼 | 第十二章 酒鬼 | passage | 【情节梗概，非逐字引文】让酒鬼羞愧的正是喝酒这件事，解释因此绕回起点。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_12_05",
+      "chunk_type": "passage",
+      "chapter": "第十二章 酒鬼",
+      "content": "【情节梗概，非逐字引文】小王子想帮助酒鬼却感到困惑，带着忧伤离开。",
+      "topic": [
+        "酒鬼"
+      ],
+      "role": [
+        "小王子",
+        "酒鬼"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 酒鬼 酒鬼 | 第十二章 酒鬼 | passage | 【情节梗概，非逐字引文】小王子想帮助酒鬼却感到困惑，带着忧伤离开。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_13_01",
+      "chunk_type": "passage",
+      "chapter": "第十三章 数星星的商人",
+      "content": "【情节梗概，非逐字引文】商人忙着计算星星的数量，几乎没有时间理会小王子。",
+      "topic": [
+        "数星星的商人"
+      ],
+      "role": [
+        "小王子",
+        "商人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 商人 数星星的商人 | 第十三章 数星星的商人 | passage | 【情节梗概，非逐字引文】商人忙着计算星星的数量，几乎没有时间理会小王子。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_13_02",
+      "chunk_type": "passage",
+      "chapter": "第十三章 数星星的商人",
+      "content": "【情节梗概，非逐字引文】商人声称自己拥有星星，因为是他首先想到要拥有它们。",
+      "topic": [
+        "数星星的商人"
+      ],
+      "role": [
+        "小王子",
+        "商人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 商人 数星星的商人 | 第十三章 数星星的商人 | passage | 【情节梗概，非逐字引文】商人声称自己拥有星星，因为是他首先想到要拥有它们。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_13_03",
+      "chunk_type": "passage",
+      "chapter": "第十三章 数星星的商人",
+      "content": "【情节梗概，非逐字引文】商人认为拥有星星能让自己富有，进而购买更多星星。",
+      "topic": [
+        "数星星的商人"
+      ],
+      "role": [
+        "小王子",
+        "商人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 商人 数星星的商人 | 第十三章 数星星的商人 | passage | 【情节梗概，非逐字引文】商人认为拥有星星能让自己富有，进而购买更多星星。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_13_04",
+      "chunk_type": "passage",
+      "chapter": "第十三章 数星星的商人",
+      "content": "【情节梗概，非逐字引文】商人把星星的数目写在纸上并锁起来，认为这样就把星星存进了银行。",
+      "topic": [
+        "数星星的商人"
+      ],
+      "role": [
+        "小王子",
+        "商人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 商人 数星星的商人 | 第十三章 数星星的商人 | passage | 【情节梗概，非逐字引文】商人把星星的数目写在纸上并锁起来，认为这样就把星星存进了银行。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_13_05",
+      "chunk_type": "passage",
+      "chapter": "第十三章 数星星的商人",
+      "content": "【情节梗概，非逐字引文】小王子把照料玫瑰、清扫火山与占有星星作比较，问商人的拥有对星星有什么用。",
+      "topic": [
+        "数星星的商人"
+      ],
+      "role": [
+        "小王子",
+        "商人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 商人 数星星的商人 | 第十三章 数星星的商人 | passage | 【情节梗概，非逐字引文】小王子把照料玫瑰、清扫火山与占有星星作比较，问商人的拥有对星星有什么用。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_14_01",
+      "chunk_type": "passage",
+      "chapter": "第十四章 点灯人",
+      "content": "【情节梗概，非逐字引文】点灯人按照规定点亮、熄灭路灯，这份工作最初还有规律可循。",
+      "topic": [
+        "点灯人"
+      ],
+      "role": [
+        "小王子",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 点灯人 点灯人 | 第十四章 点灯人 | passage | 【情节梗概，非逐字引文】点灯人按照规定点亮、熄灭路灯，这份工作最初还有规律可循。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_14_02",
+      "chunk_type": "passage",
+      "chapter": "第十四章 点灯人",
+      "content": "【情节梗概，非逐字引文】星球越转越快，规定却没有改变，点灯人只得不停地点灯和熄灯。",
+      "topic": [
+        "点灯人"
+      ],
+      "role": [
+        "小王子",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 点灯人 点灯人 | 第十四章 点灯人 | passage | 【情节梗概，非逐字引文】星球越转越快，规定却没有改变，点灯人只得不停地点灯和熄灯。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_14_03",
+      "chunk_type": "passage",
+      "chapter": "第十四章 点灯人",
+      "content": "【情节梗概，非逐字引文】点灯人想休息，却被频繁交替的昼夜和旧规定困住。",
+      "topic": [
+        "点灯人"
+      ],
+      "role": [
+        "小王子",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 点灯人 点灯人 | 第十四章 点灯人 | passage | 【情节梗概，非逐字引文】点灯人想休息，却被频繁交替的昼夜和旧规定困住。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_14_04",
+      "chunk_type": "passage",
+      "chapter": "第十四章 点灯人",
+      "content": "【情节梗概，非逐字引文】小王子提出通过走路跟着太阳移动的办法，点灯人却更想睡觉。",
+      "topic": [
+        "点灯人"
+      ],
+      "role": [
+        "小王子",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 点灯人 点灯人 | 第十四章 点灯人 | passage | 【情节梗概，非逐字引文】小王子提出通过走路跟着太阳移动的办法，点灯人却更想睡觉。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_14_05",
+      "chunk_type": "passage",
+      "chapter": "第十四章 点灯人",
+      "content": "【情节梗概，非逐字引文】小王子认为点灯人的工作比许多大人的忙碌更有意义，因为他想到的不只是自己。",
+      "topic": [
+        "点灯人"
+      ],
+      "role": [
+        "小王子",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 点灯人 点灯人 | 第十四章 点灯人 | passage | 【情节梗概，非逐字引文】小王子认为点灯人的工作比许多大人的忙碌更有意义，因为他想到的不只是自己。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_14_06",
+      "chunk_type": "passage",
+      "chapter": "第十四章 点灯人",
+      "content": "【情节梗概，非逐字引文】小王子想和点灯人做朋友，但星球太小，容不下第二个人。",
+      "topic": [
+        "点灯人"
+      ],
+      "role": [
+        "小王子",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 点灯人 点灯人 | 第十四章 点灯人 | passage | 【情节梗概，非逐字引文】小王子想和点灯人做朋友，但星球太小，容不下第二个人。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_15_01",
+      "chunk_type": "passage",
+      "chapter": "第十五章 地理学家",
+      "content": "【情节梗概，非逐字引文】地理学家坐在大书前记录山川和海洋，却不亲自进行探险。",
+      "topic": [
+        "地理学家"
+      ],
+      "role": [
+        "小王子",
+        "地理学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 地理学家 地理学家 | 第十五章 地理学家 | passage | 【情节梗概，非逐字引文】地理学家坐在大书前记录山川和海洋，却不亲自进行探险。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_15_02",
+      "chunk_type": "passage",
+      "chapter": "第十五章 地理学家",
+      "content": "【情节梗概，非逐字引文】地理学家依靠探险家的报告，认为记录之前需要核实报告是否可靠。",
+      "topic": [
+        "地理学家"
+      ],
+      "role": [
+        "小王子",
+        "地理学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 地理学家 地理学家 | 第十五章 地理学家 | passage | 【情节梗概，非逐字引文】地理学家依靠探险家的报告，认为记录之前需要核实报告是否可靠。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_15_03",
+      "chunk_type": "passage",
+      "chapter": "第十五章 地理学家",
+      "content": "【情节梗概，非逐字引文】小王子介绍自己的星球，地理学家却不记录花，因为花是短暂的。",
+      "topic": [
+        "地理学家"
+      ],
+      "role": [
+        "小王子",
+        "地理学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 地理学家 地理学家 | 第十五章 地理学家 | passage | 【情节梗概，非逐字引文】小王子介绍自己的星球，地理学家却不记录花，因为花是短暂的。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_15_04",
+      "chunk_type": "passage",
+      "chapter": "第十五章 地理学家",
+      "content": "【情节梗概，非逐字引文】小王子由此第一次认真意识到玫瑰的脆弱，开始后悔把她独自留下。",
+      "topic": [
+        "地理学家"
+      ],
+      "role": [
+        "小王子",
+        "地理学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 地理学家 地理学家 | 第十五章 地理学家 | passage | 【情节梗概，非逐字引文】小王子由此第一次认真意识到玫瑰的脆弱，开始后悔把她独自留下。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_15_05",
+      "chunk_type": "passage",
+      "chapter": "第十五章 地理学家",
+      "content": "【情节梗概，非逐字引文】地理学家建议小王子去地球，小王子继续旅行。",
+      "topic": [
+        "地理学家"
+      ],
+      "role": [
+        "小王子",
+        "地理学家"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 地理学家 地理学家 | 第十五章 地理学家 | passage | 【情节梗概，非逐字引文】地理学家建议小王子去地球，小王子继续旅行。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_16_01",
+      "chunk_type": "passage",
+      "chapter": "第十六章 地球",
+      "content": "【情节梗概，非逐字引文】叙述者先用许多大人的职业和数量来介绍地球的规模。",
+      "topic": [
+        "地球"
+      ],
+      "role": [
+        "叙述者",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "叙述者 点灯人 地球 | 第十六章 地球 | passage | 【情节梗概，非逐字引文】叙述者先用许多大人的职业和数量来介绍地球的规模。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_16_02",
+      "chunk_type": "passage",
+      "chapter": "第十六章 地球",
+      "content": "【情节梗概，非逐字引文】地球上有许多国王、地理学家、商人和其他大人，并非像之前的小星球那样只有一个居民。",
+      "topic": [
+        "地球"
+      ],
+      "role": [
+        "叙述者",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "叙述者 点灯人 地球 | 第十六章 地球 | passage | 【情节梗概，非逐字引文】地球上有许多国王、地理学家、商人和其他大人，并非像之前的小星球那样只有一个居民。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_16_03",
+      "chunk_type": "passage",
+      "chapter": "第十六章 地球",
+      "content": "【情节梗概，非逐字引文】在电灯普及以前，世界各地的点灯人按照不同地方的昼夜次序工作。",
+      "topic": [
+        "地球"
+      ],
+      "role": [
+        "叙述者",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "叙述者 点灯人 地球 | 第十六章 地球 | passage | 【情节梗概，非逐字引文】在电灯普及以前，世界各地的点灯人按照不同地方的昼夜次序工作。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_16_04",
+      "chunk_type": "passage",
+      "chapter": "第十六章 地球",
+      "content": "【情节梗概，非逐字引文】南北极附近的点灯人面对特殊的昼夜节奏，工作安排与其他地方不同。",
+      "topic": [
+        "地球"
+      ],
+      "role": [
+        "叙述者",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "叙述者 点灯人 地球 | 第十六章 地球 | passage | 【情节梗概，非逐字引文】南北极附近的点灯人面对特殊的昼夜节奏，工作安排与其他地方不同。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_16_05",
+      "chunk_type": "passage",
+      "chapter": "第十六章 地球",
+      "content": "【情节梗概，非逐字引文】叙述者随后提醒读者，不要因此误以为人类占满地球；人的身体实际占据的空间很小。",
+      "topic": [
+        "地球"
+      ],
+      "role": [
+        "叙述者",
+        "点灯人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "叙述者 点灯人 地球 | 第十六章 地球 | passage | 【情节梗概，非逐字引文】叙述者随后提醒读者，不要因此误以为人类占满地球；人的身体实际占据的空间很小。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_17_01",
+      "chunk_type": "passage",
+      "chapter": "第十七章 沙漠里的蛇",
+      "content": "【情节梗概，非逐字引文】小王子来到地球时降落在非洲沙漠，最先遇见一条蛇。",
+      "topic": [
+        "沙漠里的蛇"
+      ],
+      "role": [
+        "小王子",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 蛇 沙漠里的蛇 | 第十七章 沙漠里的蛇 | passage | 【情节梗概，非逐字引文】小王子来到地球时降落在非洲沙漠，最先遇见一条蛇。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_17_02",
+      "chunk_type": "passage",
+      "chapter": "第十七章 沙漠里的蛇",
+      "content": "【情节梗概，非逐字引文】小王子问人在哪里，蛇说在沙漠里没有人，而在人群里也可能孤独。",
+      "topic": [
+        "沙漠里的蛇"
+      ],
+      "role": [
+        "小王子",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 蛇 沙漠里的蛇 | 第十七章 沙漠里的蛇 | passage | 【情节梗概，非逐字引文】小王子问人在哪里，蛇说在沙漠里没有人，而在人群里也可能孤独。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_17_03",
+      "chunk_type": "passage",
+      "chapter": "第十七章 沙漠里的蛇",
+      "content": "【情节梗概，非逐字引文】小王子讲起自己与一朵花的困难，也望着遥远的故乡。",
+      "topic": [
+        "沙漠里的蛇"
+      ],
+      "role": [
+        "小王子",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 蛇 沙漠里的蛇 | 第十七章 沙漠里的蛇 | passage | 【情节梗概，非逐字引文】小王子讲起自己与一朵花的困难，也望着遥远的故乡。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_17_04",
+      "chunk_type": "passage",
+      "chapter": "第十七章 沙漠里的蛇",
+      "content": "【情节梗概，非逐字引文】蛇没有脚，却暗示自己有能把人送得很远的力量；它的回答带有谜语意味。",
+      "topic": [
+        "沙漠里的蛇"
+      ],
+      "role": [
+        "小王子",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 蛇 沙漠里的蛇 | 第十七章 沙漠里的蛇 | passage | 【情节梗概，非逐字引文】蛇没有脚，却暗示自己有能把人送得很远的力量；它的回答带有谜语意味。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_17_05",
+      "chunk_type": "passage",
+      "chapter": "第十七章 沙漠里的蛇",
+      "content": "【情节梗概，非逐字引文】蛇表示，如果小王子太思念故乡，将来可以帮助他；此处没有交代确定的返程结果。",
+      "topic": [
+        "沙漠里的蛇"
+      ],
+      "role": [
+        "小王子",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 蛇 沙漠里的蛇 | 第十七章 沙漠里的蛇 | passage | 【情节梗概，非逐字引文】蛇表示，如果小王子太思念故乡，将来可以帮助他；此处没有交代确定的返程结果。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_18_01",
+      "chunk_type": "passage",
+      "chapter": "第十八章 沙漠中的花",
+      "content": "【情节梗概，非逐字引文】小王子穿过沙漠，只遇见一朵有三片花瓣的花。",
+      "topic": [
+        "沙漠中的花"
+      ],
+      "role": [
+        "小王子",
+        "花"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 花 沙漠中的花 | 第十八章 沙漠中的花 | passage | 【情节梗概，非逐字引文】小王子穿过沙漠，只遇见一朵有三片花瓣的花。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_18_02",
+      "chunk_type": "passage",
+      "chapter": "第十八章 沙漠中的花",
+      "content": "【情节梗概，非逐字引文】小王子向花询问人类在哪里。",
+      "topic": [
+        "沙漠中的花"
+      ],
+      "role": [
+        "小王子",
+        "花"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 花 沙漠中的花 | 第十八章 沙漠中的花 | passage | 【情节梗概，非逐字引文】小王子向花询问人类在哪里。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_18_03",
+      "chunk_type": "passage",
+      "chapter": "第十八章 沙漠中的花",
+      "content": "【情节梗概，非逐字引文】花只曾看见一支商队，凭有限的见闻回答小王子。",
+      "topic": [
+        "沙漠中的花"
+      ],
+      "role": [
+        "小王子",
+        "花"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 花 沙漠中的花 | 第十八章 沙漠中的花 | passage | 【情节梗概，非逐字引文】花只曾看见一支商队，凭有限的见闻回答小王子。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_18_04",
+      "chunk_type": "passage",
+      "chapter": "第十八章 沙漠中的花",
+      "content": "【情节梗概，非逐字引文】花认为人类没有根，会被风带走；这是花在故事中的说法，不是科学解释。",
+      "topic": [
+        "沙漠中的花"
+      ],
+      "role": [
+        "小王子",
+        "花"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 花 沙漠中的花 | 第十八章 沙漠中的花 | passage | 【情节梗概，非逐字引文】花认为人类没有根，会被风带走；这是花在故事中的说法，不是科学解释。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_18_05",
+      "chunk_type": "passage",
+      "chapter": "第十八章 沙漠中的花",
+      "content": "【情节梗概，非逐字引文】小王子向花道别，继续寻找人类。",
+      "topic": [
+        "沙漠中的花"
+      ],
+      "role": [
+        "小王子",
+        "花"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 花 沙漠中的花 | 第十八章 沙漠中的花 | passage | 【情节梗概，非逐字引文】小王子向花道别，继续寻找人类。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_19_01",
+      "chunk_type": "passage",
+      "chapter": "第十九章 高山与回声",
+      "content": "【情节梗概，非逐字引文】小王子爬上一座高山，想从高处看见整个地球和人类。",
+      "topic": [
+        "高山与回声"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 高山与回声 | 第十九章 高山与回声 | passage | 【情节梗概，非逐字引文】小王子爬上一座高山，想从高处看见整个地球和人类。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_19_02",
+      "chunk_type": "passage",
+      "chapter": "第十九章 高山与回声",
+      "content": "【情节梗概，非逐字引文】他以前只熟悉自己星球上很小的火山，眼前的山峰与故乡不同。",
+      "topic": [
+        "高山与回声"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 高山与回声 | 第十九章 高山与回声 | passage | 【情节梗概，非逐字引文】他以前只熟悉自己星球上很小的火山，眼前的山峰与故乡不同。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_19_03",
+      "chunk_type": "passage",
+      "chapter": "第十九章 高山与回声",
+      "content": "【情节梗概，非逐字引文】小王子向山间问好，听到的却只是自己的回声。",
+      "topic": [
+        "高山与回声"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 高山与回声 | 第十九章 高山与回声 | passage | 【情节梗概，非逐字引文】小王子向山间问好，听到的却只是自己的回声。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_19_04",
+      "chunk_type": "passage",
+      "chapter": "第十九章 高山与回声",
+      "content": "【情节梗概，非逐字引文】他请求别人做朋友、说自己孤独，回声仍只重复他的话。",
+      "topic": [
+        "高山与回声"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 高山与回声 | 第十九章 高山与回声 | passage | 【情节梗概，非逐字引文】他请求别人做朋友、说自己孤独，回声仍只重复他的话。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_19_05",
+      "chunk_type": "passage",
+      "chapter": "第十九章 高山与回声",
+      "content": "【情节梗概，非逐字引文】小王子觉得地球上的人缺少想象力，因为他们似乎只会重复别人说过的话。",
+      "topic": [
+        "高山与回声"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 高山与回声 | 第十九章 高山与回声 | passage | 【情节梗概，非逐字引文】小王子觉得地球上的人缺少想象力，因为他们似乎只会重复别人说过的话。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_19_06",
+      "chunk_type": "passage",
+      "chapter": "第十九章 高山与回声",
+      "content": "【情节梗概，非逐字引文】小王子想起自己的花，她总会主动开口说话；这与山里的回声不同。",
+      "topic": [
+        "高山与回声"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 高山与回声 | 第十九章 高山与回声 | passage | 【情节梗概，非逐字引文】小王子想起自己的花，她总会主动开口说话；这与山里的回声不同。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_20_01",
+      "chunk_type": "passage",
+      "chapter": "第二十章 玫瑰园",
+      "content": "【情节梗概，非逐字引文】小王子沿着一条道路来到玫瑰园，看见许多与自己的花相像的玫瑰。",
+      "topic": [
+        "玫瑰园"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰园 | 第二十章 玫瑰园 | passage | 【情节梗概，非逐字引文】小王子沿着一条道路来到玫瑰园，看见许多与自己的花相像的玫瑰。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_20_02",
+      "chunk_type": "passage",
+      "chapter": "第二十章 玫瑰园",
+      "content": "【情节梗概，非逐字引文】花园里的玫瑰告诉小王子，她们都是玫瑰。",
+      "topic": [
+        "玫瑰园"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰园 | 第二十章 玫瑰园 | passage | 【情节梗概，非逐字引文】花园里的玫瑰告诉小王子，她们都是玫瑰。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_20_03",
+      "chunk_type": "passage",
+      "chapter": "第二十章 玫瑰园",
+      "content": "【情节梗概，非逐字引文】自己的花曾告诉他，她在宇宙里独一无二；眼前的花园让他感到震惊。",
+      "topic": [
+        "玫瑰园"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰园 | 第二十章 玫瑰园 | passage | 【情节梗概，非逐字引文】自己的花曾告诉他，她在宇宙里独一无二；眼前的花园让他感到震惊。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_20_04",
+      "chunk_type": "passage",
+      "chapter": "第二十章 玫瑰园",
+      "content": "【情节梗概，非逐字引文】小王子想象自己的花如果看到这些玫瑰会多么难堪。",
+      "topic": [
+        "玫瑰园"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰园 | 第二十章 玫瑰园 | passage | 【情节梗概，非逐字引文】小王子想象自己的花如果看到这些玫瑰会多么难堪。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_20_05",
+      "chunk_type": "passage",
+      "chapter": "第二十章 玫瑰园",
+      "content": "【情节梗概，非逐字引文】他想到自己只有一朵普通的花和几座很小的火山，伤心地躺在草地上哭泣。",
+      "topic": [
+        "玫瑰园"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 玫瑰园 | 第二十章 玫瑰园 | passage | 【情节梗概，非逐字引文】他想到自己只有一朵普通的花和几座很小的火山，伤心地躺在草地上哭泣。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_21_01",
+      "chunk_type": "passage",
+      "chapter": "第二十一章 狐狸",
+      "content": "【情节梗概，非逐字引文】狐狸把驯养解释为建立联系：原本陌生的男孩与狐狸，会因彼此需要而变得特别。",
+      "topic": [
+        "狐狸"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 狐狸 | 第二十一章 狐狸 | passage | 【情节梗概，非逐字引文】狐狸把驯养解释为建立联系：原本陌生的男孩与狐狸，会因彼此需要而变得特别。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_21_02",
+      "chunk_type": "passage",
+      "chapter": "第二十一章 狐狸",
+      "content": "【情节梗概，非逐字引文】狐狸请小王子耐心相处，先坐远一点，以后每天再靠近一点。",
+      "topic": [
+        "狐狸"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 狐狸 | 第二十一章 狐狸 | passage | 【情节梗概，非逐字引文】狐狸请小王子耐心相处，先坐远一点，以后每天再靠近一点。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_21_03",
+      "chunk_type": "passage",
+      "chapter": "第二十一章 狐狸",
+      "content": "【情节梗概，非逐字引文】狐狸用下午四点见面举例，说明有约定时，自己三点就会开始期待。",
+      "topic": [
+        "狐狸"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 狐狸 | 第二十一章 狐狸 | passage | 【情节梗概，非逐字引文】狐狸用下午四点见面举例，说明有约定时，自己三点就会开始期待。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_21_04",
+      "chunk_type": "passage",
+      "chapter": "第二十一章 狐狸",
+      "content": "【情节梗概，非逐字引文】狐狸原先觉得麦子与自己无关；小王子的金发会让金色麦田成为想起朋友的线索。",
+      "topic": [
+        "狐狸"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 狐狸 | 第二十一章 狐狸 | passage | 【情节梗概，非逐字引文】狐狸原先觉得麦子与自己无关；小王子的金发会让金色麦田成为想起朋友的线索。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_21_05",
+      "chunk_type": "passage",
+      "chapter": "第二十一章 狐狸",
+      "content": "【情节梗概，非逐字引文】临近告别时，狐狸知道自己会哭，但仍珍惜麦田因这段相遇而有的意义。",
+      "topic": [
+        "狐狸"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 狐狸 | 第二十一章 狐狸 | passage | 【情节梗概，非逐字引文】临近告别时，狐狸知道自己会哭，但仍珍惜麦田因这段相遇而有的意义。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_21_06",
+      "chunk_type": "passage",
+      "chapter": "第二十一章 狐狸",
+      "content": "【情节梗概，非逐字引文】小王子回到玫瑰园，理解自己照料过的那朵玫瑰为何与别的花不同。",
+      "topic": [
+        "狐狸"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 狐狸 | 第二十一章 狐狸 | passage | 【情节梗概，非逐字引文】小王子回到玫瑰园，理解自己照料过的那朵玫瑰为何与别的花不同。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_21_07",
+      "chunk_type": "passage",
+      "chapter": "第二十一章 狐狸",
+      "content": "【情节梗概，非逐字引文】狐狸留下的秘密强调用心看见，以及为自己建立联系的对象负责。",
+      "topic": [
+        "狐狸"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 狐狸 | 第二十一章 狐狸 | passage | 【情节梗概，非逐字引文】狐狸留下的秘密强调用心看见，以及为自己建立联系的对象负责。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_21_08",
+      "chunk_type": "passage",
+      "chapter": "第二十一章 狐狸",
+      "content": "【情节梗概，非逐字引文】这一章没有交代小王子和狐狸一共相处了多少天；固定时间的谈话也不是一个确定的日历日期。",
+      "topic": [
+        "狐狸"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 狐狸 | 第二十一章 狐狸 | passage | 【情节梗概，非逐字引文】这一章没有交代小王子和狐狸一共相处了多少天；固定时间的谈话也不是一个确定的日历日期。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_22_01",
+      "chunk_type": "passage",
+      "chapter": "第二十二章 扳道工",
+      "content": "【情节梗概，非逐字引文】小王子遇见的是铁路扳道工，他负责把旅客分批、调度列车向不同方向行驶，不是拧螺丝的扳手工。",
+      "topic": [
+        "扳道工"
+      ],
+      "role": [
+        "小王子",
+        "扳道工"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 扳道工 扳道工 | 第二十二章 扳道工 | passage | 【情节梗概，非逐字引文】小王子遇见的是铁路扳道工，他负责把旅客分批、调度列车向不同方向行驶，不是拧螺丝的扳手工。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_22_02",
+      "chunk_type": "passage",
+      "chapter": "第二十二章 扳道工",
+      "content": "【情节梗概，非逐字引文】灯火通明的快车经过，小王子好奇车上的人为何如此匆忙。",
+      "topic": [
+        "扳道工"
+      ],
+      "role": [
+        "小王子",
+        "扳道工"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 扳道工 扳道工 | 第二十二章 扳道工 | passage | 【情节梗概，非逐字引文】灯火通明的快车经过，小王子好奇车上的人为何如此匆忙。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_22_03",
+      "chunk_type": "passage",
+      "chapter": "第二十二章 扳道工",
+      "content": "【情节梗概，非逐字引文】扳道工说，连驾驶机车的人也不知道这些旅客究竟在寻找什么。",
+      "topic": [
+        "扳道工"
+      ],
+      "role": [
+        "小王子",
+        "扳道工"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 扳道工 扳道工 | 第二十二章 扳道工 | passage | 【情节梗概，非逐字引文】扳道工说，连驾驶机车的人也不知道这些旅客究竟在寻找什么。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_22_04",
+      "chunk_type": "passage",
+      "chapter": "第二十二章 扳道工",
+      "content": "【情节梗概，非逐字引文】另一列车从相反方向驶过，扳道工解释并不是同一批人返回，而是另一批旅客。",
+      "topic": [
+        "扳道工"
+      ],
+      "role": [
+        "小王子",
+        "扳道工"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 扳道工 扳道工 | 第二十二章 扳道工 | passage | 【情节梗概，非逐字引文】另一列车从相反方向驶过，扳道工解释并不是同一批人返回，而是另一批旅客。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_22_05",
+      "chunk_type": "passage",
+      "chapter": "第二十二章 扳道工",
+      "content": "【情节梗概，非逐字引文】谈到旅客的寻找时，小王子认为孩子认真在乎自己的布娃娃等事物，扳道工说他们很幸运。",
+      "topic": [
+        "扳道工"
+      ],
+      "role": [
+        "小王子",
+        "扳道工"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 扳道工 扳道工 | 第二十二章 扳道工 | passage | 【情节梗概，非逐字引文】谈到旅客的寻找时，小王子认为孩子认真在乎自己的布娃娃等事物，扳道工说他们很幸运。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_23_01",
+      "chunk_type": "passage",
+      "chapter": "第二十三章 卖解渴药丸的人",
+      "content": "【情节梗概，非逐字引文】小王子遇见卖解渴药丸的人，对方推销一种可以减少喝水需要的药丸。",
+      "topic": [
+        "卖解渴药丸的人"
+      ],
+      "role": [
+        "小王子",
+        "卖药人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 卖药人 卖解渴药丸的人 | 第二十三章 卖解渴药丸的人 | passage | 【情节梗概，非逐字引文】小王子遇见卖解渴药丸的人，对方推销一种可以减少喝水需要的药丸。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_23_02",
+      "chunk_type": "passage",
+      "chapter": "第二十三章 卖解渴药丸的人",
+      "content": "【情节梗概，非逐字引文】药丸商人声称，吃药丸可以节约人们花在喝水上的时间。",
+      "topic": [
+        "卖解渴药丸的人"
+      ],
+      "role": [
+        "小王子",
+        "卖药人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 卖药人 卖解渴药丸的人 | 第二十三章 卖解渴药丸的人 | passage | 【情节梗概，非逐字引文】药丸商人声称，吃药丸可以节约人们花在喝水上的时间。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_23_03",
+      "chunk_type": "passage",
+      "chapter": "第二十三章 卖解渴药丸的人",
+      "content": "【情节梗概，非逐字引文】商人给出的节省时间说法是每星期五十三分钟，这是故事中商人的宣传。",
+      "topic": [
+        "卖解渴药丸的人"
+      ],
+      "role": [
+        "小王子",
+        "卖药人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 卖药人 卖解渴药丸的人 | 第二十三章 卖解渴药丸的人 | passage | 【情节梗概，非逐字引文】商人给出的节省时间说法是每星期五十三分钟，这是故事中商人的宣传。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_23_04",
+      "chunk_type": "passage",
+      "chapter": "第二十三章 卖解渴药丸的人",
+      "content": "【情节梗概，非逐字引文】小王子追问省下的时间用来做什么，商人说可以做自己想做的事。",
+      "topic": [
+        "卖解渴药丸的人"
+      ],
+      "role": [
+        "小王子",
+        "卖药人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 卖药人 卖解渴药丸的人 | 第二十三章 卖解渴药丸的人 | passage | 【情节梗概，非逐字引文】小王子追问省下的时间用来做什么，商人说可以做自己想做的事。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_23_05",
+      "chunk_type": "passage",
+      "chapter": "第二十三章 卖解渴药丸的人",
+      "content": "【情节梗概，非逐字引文】小王子想到，如果自己有这些时间，宁愿慢慢走向一处水泉；这位卖药人不是第十三章数星星的商人。",
+      "topic": [
+        "卖解渴药丸的人"
+      ],
+      "role": [
+        "小王子",
+        "卖药人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 卖药人 卖解渴药丸的人 | 第二十三章 卖解渴药丸的人 | passage | 【情节梗概，非逐字引文】小王子想到，如果自己有这些时间，宁愿慢慢走向一处水泉；这位卖药人不是第十三章数星星的商人。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_24_01",
+      "chunk_type": "passage",
+      "chapter": "第二十四章 寻找水井",
+      "content": "【情节梗概，非逐字引文】飞机故障后，飞行员的饮水快用完了，他担心两人会渴死。",
+      "topic": [
+        "寻找水井"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 寻找水井 | 第二十四章 寻找水井 | passage | 【情节梗概，非逐字引文】飞机故障后，飞行员的饮水快用完了，他担心两人会渴死。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_24_02",
+      "chunk_type": "passage",
+      "chapter": "第二十四章 寻找水井",
+      "content": "【情节梗概，非逐字引文】飞行员起初觉得此刻不该再谈狐狸，小王子仍珍惜曾经有过狐狸这个朋友。",
+      "topic": [
+        "寻找水井"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 寻找水井 | 第二十四章 寻找水井 | passage | 【情节梗概，非逐字引文】飞行员起初觉得此刻不该再谈狐狸，小王子仍珍惜曾经有过狐狸这个朋友。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_24_03",
+      "chunk_type": "passage",
+      "chapter": "第二十四章 寻找水井",
+      "content": "【情节梗概，非逐字引文】小王子也说自己渴了，两人决定在沙漠里一起找井。",
+      "topic": [
+        "寻找水井"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 寻找水井 | 第二十四章 寻找水井 | passage | 【情节梗概，非逐字引文】小王子也说自己渴了，两人决定在沙漠里一起找井。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_24_04",
+      "chunk_type": "passage",
+      "chapter": "第二十四章 寻找水井",
+      "content": "【情节梗概，非逐字引文】两人走到夜里，小王子提到星星和看不见的花，也谈到沙漠里藏着水井的美丽。",
+      "topic": [
+        "寻找水井"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 寻找水井 | 第二十四章 寻找水井 | passage | 【情节梗概，非逐字引文】两人走到夜里，小王子提到星星和看不见的花，也谈到沙漠里藏着水井的美丽。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_24_05",
+      "chunk_type": "passage",
+      "chapter": "第二十四章 寻找水井",
+      "content": "【情节梗概，非逐字引文】小王子睡着后，飞行员抱着他继续走，感受到他的脆弱以及对玫瑰的牵挂。",
+      "topic": [
+        "寻找水井"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 寻找水井 | 第二十四章 寻找水井 | passage | 【情节梗概，非逐字引文】小王子睡着后，飞行员抱着他继续走，感受到他的脆弱以及对玫瑰的牵挂。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_24_06",
+      "chunk_type": "passage",
+      "chapter": "第二十四章 寻找水井",
+      "content": "【情节梗概，非逐字引文】飞行员在黎明时找到了水井；寻找和抱着小王子走路发生在第二十四章。",
+      "topic": [
+        "寻找水井"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 寻找水井 | 第二十四章 寻找水井 | passage | 【情节梗概，非逐字引文】飞行员在黎明时找到了水井；寻找和抱着小王子走路发生在第二十四章。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_25_01",
+      "chunk_type": "passage",
+      "chapter": "第二十五章 井水与约定",
+      "content": "【情节梗概，非逐字引文】两人找到的井带着辘轳、水桶和绳子，飞行员打起一桶水。",
+      "topic": [
+        "井水与约定"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 井水与约定 | 第二十五章 井水与约定 | passage | 【情节梗概，非逐字引文】两人找到的井带着辘轳、水桶和绳子，飞行员打起一桶水。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_25_02",
+      "chunk_type": "passage",
+      "chapter": "第二十五章 井水与约定",
+      "content": "【情节梗概，非逐字引文】对两人而言，水不仅能解渴，也带着一路寻找、辘轳声和共同经历的意义。",
+      "topic": [
+        "井水与约定"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 井水与约定 | 第二十五章 井水与约定 | passage | 【情节梗概，非逐字引文】对两人而言，水不仅能解渴，也带着一路寻找、辘轳声和共同经历的意义。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_25_03",
+      "chunk_type": "passage",
+      "chapter": "第二十五章 井水与约定",
+      "content": "【情节梗概，非逐字引文】小王子请求飞行员兑现为羊画嘴套的承诺，仍惦记着自己的花。",
+      "topic": [
+        "井水与约定"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 井水与约定 | 第二十五章 井水与约定 | passage | 【情节梗概，非逐字引文】小王子请求飞行员兑现为羊画嘴套的承诺，仍惦记着自己的花。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_25_04",
+      "chunk_type": "passage",
+      "chapter": "第二十五章 井水与约定",
+      "content": "【情节梗概，非逐字引文】小王子谈到降落地球的周年时刻，飞行员逐渐察觉他另有安排。",
+      "topic": [
+        "井水与约定"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 井水与约定 | 第二十五章 井水与约定 | passage | 【情节梗概，非逐字引文】小王子谈到降落地球的周年时刻，飞行员逐渐察觉他另有安排。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_25_05",
+      "chunk_type": "passage",
+      "chapter": "第二十五章 井水与约定",
+      "content": "【情节梗概，非逐字引文】小王子请飞行员回去修理飞机，并约他第二天晚上再来；这章没有把故事结局说成已经确定。",
+      "topic": [
+        "井水与约定"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 井水与约定 | 第二十五章 井水与约定 | passage | 【情节梗概，非逐字引文】小王子请飞行员回去修理飞机，并约他第二天晚上再来；这章没有把故事结局说成已经确定。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_26_01",
+      "chunk_type": "passage",
+      "chapter": "第二十六章 告别",
+      "content": "【情节梗概，非逐字引文】飞行员看见小王子在墙边与蛇交谈，担心他将面临危险。",
+      "topic": [
+        "告别"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 蛇 告别 | 第二十六章 告别 | passage | 【情节梗概，非逐字引文】飞行员看见小王子在墙边与蛇交谈，担心他将面临危险。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_26_02",
+      "chunk_type": "passage",
+      "chapter": "第二十六章 告别",
+      "content": "【情节梗概，非逐字引文】飞行员告诉小王子，飞机已经修好；小王子也准备离开。",
+      "topic": [
+        "告别"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 蛇 告别 | 第二十六章 告别 | passage | 【情节梗概，非逐字引文】飞行员告诉小王子，飞机已经修好；小王子也准备离开。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_26_03",
+      "chunk_type": "passage",
+      "chapter": "第二十六章 告别",
+      "content": "【情节梗概，非逐字引文】小王子谈到回去照料自己的玫瑰，以及无法把沉重的身体带走的想法。",
+      "topic": [
+        "告别"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 蛇 告别 | 第二十六章 告别 | passage | 【情节梗概，非逐字引文】小王子谈到回去照料自己的玫瑰，以及无法把沉重的身体带走的想法。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_26_04",
+      "chunk_type": "passage",
+      "chapter": "第二十六章 告别",
+      "content": "【情节梗概，非逐字引文】小王子告诉飞行员，今后仰望星星时，可以想起自己的笑声。",
+      "topic": [
+        "告别"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 蛇 告别 | 第二十六章 告别 | passage | 【情节梗概，非逐字引文】小王子告诉飞行员，今后仰望星星时，可以想起自己的笑声。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_26_05",
+      "chunk_type": "passage",
+      "chapter": "第二十六章 告别",
+      "content": "【情节梗概，非逐字引文】蛇咬了小王子之后，他轻轻倒下；叙述没有描写一个可证实的飞船返程过程。",
+      "topic": [
+        "告别"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 蛇 告别 | 第二十六章 告别 | passage | 【情节梗概，非逐字引文】蛇咬了小王子之后，他轻轻倒下；叙述没有描写一个可证实的飞船返程过程。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_26_06",
+      "chunk_type": "passage",
+      "chapter": "第二十六章 告别",
+      "content": "【情节梗概，非逐字引文】这一章以分离与忧伤收束，小王子回到故乡的愿望与具体去向仍有童话式的开放性。",
+      "topic": [
+        "告别"
+      ],
+      "role": [
+        "小王子",
+        "飞行员",
+        "蛇"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 蛇 告别 | 第二十六章 告别 | passage | 【情节梗概，非逐字引文】这一章以分离与忧伤收束，小王子回到故乡的愿望与具体去向仍有童话式的开放性。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_27_01",
+      "chunk_type": "passage",
+      "chapter": "第二十七章 尾声",
+      "content": "【情节梗概，非逐字引文】飞行员在多年后回忆小王子，仍会想起这位朋友。",
+      "topic": [
+        "尾声"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 尾声 | 第二十七章 尾声 | passage | 【情节梗概，非逐字引文】飞行员在多年后回忆小王子，仍会想起这位朋友。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_27_02",
+      "chunk_type": "passage",
+      "chapter": "第二十七章 尾声",
+      "content": "【情节梗概，非逐字引文】叙述者提到没有再见到小王子的身体，并用自己的方式理解他的离去。",
+      "topic": [
+        "尾声"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 尾声 | 第二十七章 尾声 | passage | 【情节梗概，非逐字引文】叙述者提到没有再见到小王子的身体，并用自己的方式理解他的离去。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_27_03",
+      "chunk_type": "passage",
+      "chapter": "第二十七章 尾声",
+      "content": "【情节梗概，非逐字引文】飞行员担心给羊画的嘴套缺少必要的带子，羊是否会吃掉花因此成了悬念。",
+      "topic": [
+        "尾声"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 尾声 | 第二十七章 尾声 | passage | 【情节梗概，非逐字引文】飞行员担心给羊画的嘴套缺少必要的带子，羊是否会吃掉花因此成了悬念。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_27_04",
+      "chunk_type": "passage",
+      "chapter": "第二十七章 尾声",
+      "content": "【情节梗概，非逐字引文】花是否安全，会改变飞行员看待星星时的心情；故事没有给出确定答案。",
+      "topic": [
+        "尾声"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 尾声 | 第二十七章 尾声 | passage | 【情节梗概，非逐字引文】花是否安全，会改变飞行员看待星星时的心情；故事没有给出确定答案。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "passage_27_05",
+      "chunk_type": "passage",
+      "chapter": "第二十七章 尾声",
+      "content": "【情节梗概，非逐字引文】叙述者画出相遇处的景象，请读者如果遇见那个金发孩子，就尽快告诉他。",
+      "topic": [
+        "尾声"
+      ],
+      "role": [
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 尾声 | 第二十七章 尾声 | passage | 【情节梗概，非逐字引文】叙述者画出相遇处的景象，请读者如果遇见那个金发孩子，就尽快告诉他。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_xiaowangzi_01",
+      "chunk_type": "character",
+      "chapter": "第1-9章",
+      "content": "【阅读解读·角色·小王子】\n小王子认真追问飞机、羊和花的问题。可以把他的好奇理解为对具体事物的重视，而不必把童真写成幼稚。",
+      "topic": [
+        "童年",
+        "看见与用心",
+        "成长"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 童年 看见与用心 成长 小王子 | 第1-9章 | character | 【阅读解读·角色·小王子】\n小王子认真追问飞机、羊和花的问题。可以把他的好奇理解为对具体事物的重视，而不必把童真写成幼稚。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_xiaowangzi_2_01",
+      "chunk_type": "character",
+      "chapter": "第8-26章",
+      "content": "【阅读解读·角色·小王子】\n从离开玫瑰到听狐狸讲建立联系，小王子逐渐重新理解自己的照料。这里讨论的是成长的一种阅读理解，并不补写他携带水回到B612的情节。",
+      "topic": [
+        "成长",
+        "爱",
+        "责任"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰",
+        "狐狸"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 狐狸 成长 爱 责任 小王子 | 第8-26章 | character | 【阅读解读·角色·小王子】\n从离开玫瑰到听狐狸讲建立联系，小王子逐渐重新理解自己的照料。这里讨论的是成长的一种阅读理解，并不补写他携带水回到B612的情节。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_xiaowangzi_3_01",
+      "chunk_type": "character",
+      "chapter": "第8、21、26章",
+      "content": "【阅读解读·角色·小王子】\n玫瑰、狐狸与飞行员的告别，让牵挂贯穿旅程。可以据此理解相遇和离别的关系，结局的具体去向仍保持开放。",
+      "topic": [
+        "离别",
+        "成长",
+        "爱"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰",
+        "狐狸",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 狐狸 飞行员 离别 成长 爱 小王子 | 第8、21、26章 | character | 【阅读解读·角色·小王子】\n玫瑰、狐狸与飞行员的告别，让牵挂贯穿旅程。可以据此理解相遇和离别的关系，结局的具体去向仍保持开放。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_meigui_01",
+      "chunk_type": "character",
+      "chapter": "第4、7、8章",
+      "content": "【阅读解读·角色·玫瑰】\n玫瑰既展现美丽和骄傲，也需要挡风与照料。她的强硬言语与脆弱可以形成对照，但不能据此断言现实中的人有同样动机。",
+      "topic": [
+        "骄傲",
+        "爱",
+        "玫瑰与独一无二"
+      ],
+      "role": [
+        "玫瑰",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "玫瑰 小王子 骄傲 爱 玫瑰与独一无二 玫瑰 | 第4、7、8章 | character | 【阅读解读·角色·玫瑰】\n玫瑰既展现美丽和骄傲，也需要挡风与照料。她的强硬言语与脆弱可以形成对照，但不能据此断言现实中的人有同样动机。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_meigui_2_01",
+      "chunk_type": "character",
+      "chapter": "第8章",
+      "content": "【阅读解读·角色·玫瑰】\n离别时玫瑰道歉、祝福小王子，并催他离开以免被看见流泪。这可以理解为她终于更直接地表达心意。",
+      "topic": [
+        "离别",
+        "爱",
+        "成长"
+      ],
+      "role": [
+        "玫瑰",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "玫瑰 小王子 离别 爱 成长 玫瑰 | 第8章 | character | 【阅读解读·角色·玫瑰】\n离别时玫瑰道歉、祝福小王子，并催他离开以免被看见流泪。这可以理解为她终于更直接地表达心意。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_meigui_3_01",
+      "chunk_type": "character",
+      "chapter": "第20、21章",
+      "content": "【阅读解读·角色·玫瑰】\n小王子照料过的玫瑰，与花园里的花外貌相似却拥有不同的共同经历。这是理解独一无二的一条线索。",
+      "topic": [
+        "玫瑰与独一无二",
+        "爱",
+        "驯服"
+      ],
+      "role": [
+        "玫瑰",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "玫瑰 小王子 玫瑰与独一无二 爱 驯服 玫瑰 | 第20、21章 | character | 【阅读解读·角色·玫瑰】\n小王子照料过的玫瑰，与花园里的花外貌相似却拥有不同的共同经历。这是理解独一无二的一条线索。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_huli_01",
+      "chunk_type": "character",
+      "chapter": "第21章",
+      "content": "【阅读解读·角色·狐狸】\n狐狸把驯养解释为建立联系，并用耐心相处说明这种联系如何形成。这里的驯养不宜简单理解为占有宠物。",
+      "topic": [
+        "驯服",
+        "爱",
+        "看见与用心"
+      ],
+      "role": [
+        "狐狸",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "狐狸 小王子 驯服 爱 看见与用心 狐狸 | 第21章 | character | 【阅读解读·角色·狐狸】\n狐狸把驯养解释为建立联系，并用耐心相处说明这种联系如何形成。这里的驯养不宜简单理解为占有宠物。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_huli_2_01",
+      "chunk_type": "character",
+      "chapter": "第21章",
+      "content": "【阅读解读·角色·狐狸】\n狐狸用固定见面时间说明期待和仪式。仪式使时间变得特别，是一种可讨论的阅读理解，而不是现实关系必须遵守的唯一规则。",
+      "topic": [
+        "驯服",
+        "看见与用心",
+        "爱"
+      ],
+      "role": [
+        "狐狸",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "狐狸 小王子 驯服 看见与用心 爱 狐狸 | 第21章 | character | 【阅读解读·角色·狐狸】\n狐狸用固定见面时间说明期待和仪式。仪式使时间变得特别，是一种可讨论的阅读理解，而不是现实关系必须遵守的唯一规则。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_huli_3_01",
+      "chunk_type": "character",
+      "chapter": "第21章",
+      "content": "【阅读解读·角色·狐狸】\n告别时狐狸会难过，但也珍惜金色麦田带来的记忆。麦田本来就是金色，改变的是它对狐狸的意义。",
+      "topic": [
+        "离别",
+        "驯服",
+        "成长"
+      ],
+      "role": [
+        "狐狸",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "狐狸 小王子 离别 驯服 成长 狐狸 | 第21章 | character | 【阅读解读·角色·狐狸】\n告别时狐狸会难过，但也珍惜金色麦田带来的记忆。麦田本来就是金色，改变的是它对狐狸的意义。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_feixingyuan_01",
+      "chunk_type": "character",
+      "chapter": "第1-2章",
+      "content": "【阅读解读·角色·飞行员】\n飞行员小时候的画不被大人理解，小王子却能认出蟒蛇和大象。可以把这种对照读作理解与想象力的相遇。",
+      "topic": [
+        "童年",
+        "大人世界",
+        "孤独",
+        "成长"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 童年 大人世界 孤独 成长 飞行员 | 第1-2章 | character | 【阅读解读·角色·飞行员】\n飞行员小时候的画不被大人理解，小王子却能认出蟒蛇和大象。可以把这种对照读作理解与想象力的相遇。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_feixingyuan_2_01",
+      "chunk_type": "character",
+      "chapter": "第17-27章",
+      "content": "【阅读解读·角色·飞行员】\n飞行员从修理飞机的焦虑中逐渐理解小王子的牵挂，也抱着他寻找水井。他们的友谊通过共同经历呈现。",
+      "topic": [
+        "驯服",
+        "成长",
+        "爱"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 驯服 成长 爱 飞行员 | 第17-27章 | character | 【阅读解读·角色·飞行员】\n飞行员从修理飞机的焦虑中逐渐理解小王子的牵挂，也抱着他寻找水井。他们的友谊通过共同经历呈现。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_feixingyuan_3_01",
+      "chunk_type": "character",
+      "chapter": "第1、27章",
+      "content": "【阅读解读·角色·飞行员】\n飞行员用回忆保存小王子的故事。叙述本身可以被理解为面对遗忘的一种方式。",
+      "topic": [
+        "离别",
+        "星星",
+        "驯服"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 离别 星星 驯服 飞行员 | 第1、27章 | character | 【阅读解读·角色·飞行员】\n飞行员用回忆保存小王子的故事。叙述本身可以被理解为面对遗忘的一种方式。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_she_01",
+      "chunk_type": "character",
+      "chapter": "第17、26章",
+      "content": "【阅读解读·角色·蛇】\n蛇以谜语般的语言暗示自己的力量，后来参与小王子的离去。它可被解读为生死与归途的边界，不能把这种象征写成确定的现实机制。",
+      "topic": [
+        "离别",
+        "成长",
+        "孤独"
+      ],
+      "role": [
+        "蛇",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "蛇 小王子 离别 成长 孤独 蛇 | 第17、26章 | character | 【阅读解读·角色·蛇】\n蛇以谜语般的语言暗示自己的力量，后来参与小王子的离去。它可被解读为生死与归途的边界，不能把这种象征写成确定的现实机制。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_diandenren_01",
+      "chunk_type": "character",
+      "chapter": "第14章",
+      "content": "【阅读解读·角色·点灯人】\n小王子欣赏点灯人，因为他不像其他一些大人那样只想到自己。工作与休息的冲突，也可以作为讨论旧规定的入口。",
+      "topic": [
+        "责任",
+        "孤独",
+        "成长"
+      ],
+      "role": [
+        "点灯人",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "点灯人 小王子 责任 孤独 成长 点灯人 | 第14章 | character | 【阅读解读·角色·点灯人】\n小王子欣赏点灯人，因为他不像其他一些大人那样只想到自己。工作与休息的冲突，也可以作为讨论旧规定的入口。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_guowang_01",
+      "chunk_type": "character",
+      "chapter": "第10章",
+      "content": "【阅读解读·角色·国王】\n国王强调命令应当合乎情理，又试图给来访者安排职位。可以从中讨论权力、控制与孤独，不把这些解读当作人物自述。",
+      "topic": [
+        "大人世界",
+        "孤独"
+      ],
+      "role": [
+        "国王",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "国王 小王子 大人世界 孤独 国王 | 第10章 | character | 【阅读解读·角色·国王】\n国王强调命令应当合乎情理，又试图给来访者安排职位。可以从中讨论权力、控制与孤独，不把这些解读当作人物自述。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_xurongzhe_01",
+      "chunk_type": "character",
+      "chapter": "第11章",
+      "content": "【阅读解读·角色·爱慕虚荣的人】\n虚荣者只听得见赞美。这个角色可引出对认可与真实交流的讨论，并不意味着孩子或成年人都不需要肯定。",
+      "topic": [
+        "大人世界",
+        "孤独"
+      ],
+      "role": [
+        "虚荣者",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "虚荣者 小王子 大人世界 孤独 爱慕虚荣的人 | 第11章 | character | 【阅读解读·角色·爱慕虚荣的人】\n虚荣者只听得见赞美。这个角色可引出对认可与真实交流的讨论，并不意味着孩子或成年人都不需要肯定。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_jiugui_01",
+      "chunk_type": "character",
+      "chapter": "第12章",
+      "content": "【阅读解读·角色·酒鬼】\n酒鬼用喝酒逃避因喝酒产生的羞愧，形成循环。可以讨论这种循环，但不据此给现实中的人下诊断。",
+      "topic": [
+        "大人世界",
+        "孤独"
+      ],
+      "role": [
+        "酒鬼",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "酒鬼 小王子 大人世界 孤独 酒鬼 | 第12章 | character | 【阅读解读·角色·酒鬼】\n酒鬼用喝酒逃避因喝酒产生的羞愧，形成循环。可以讨论这种循环，但不据此给现实中的人下诊断。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_shangren_01",
+      "chunk_type": "character",
+      "chapter": "第13章",
+      "content": "【阅读解读·角色·商人】\n数星星的商人把记录数量当作拥有。小王子则用自己照料玫瑰和火山的事，追问这种拥有对星星有什么用。",
+      "topic": [
+        "占有与珍惜",
+        "大人世界"
+      ],
+      "role": [
+        "商人",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "商人 小王子 占有与珍惜 大人世界 商人 | 第13章 | character | 【阅读解读·角色·商人】\n数星星的商人把记录数量当作拥有。小王子则用自己照料玫瑰和火山的事，追问这种拥有对星星有什么用。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_dilixuejia_01",
+      "chunk_type": "character",
+      "chapter": "第15章",
+      "content": "【阅读解读·角色·地理学家】\n地理学家依靠探险家的报告，也要求核实报告。他不记录短暂的花，使小王子意识到玫瑰脆弱；这与完全否定知识不同。",
+      "topic": [
+        "大人世界",
+        "看见与用心",
+        "成长"
+      ],
+      "role": [
+        "地理学家",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "地理学家 小王子 大人世界 看见与用心 成长 地理学家 | 第15章 | character | 【阅读解读·角色·地理学家】\n地理学家依靠探险家的报告，也要求核实报告。他不记录短暂的花，使小王子意识到玫瑰脆弱；这与完全否定知识不同。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_banshougong_01",
+      "chunk_type": "character",
+      "chapter": "第22章",
+      "content": "【阅读解读·角色·扳道工】\n第二十二章的人物是铁路扳道工，负责旅客和列车调度。他与小王子谈论匆忙的旅行者，不是重复拧螺丝的扳手工。",
+      "topic": [
+        "大人世界",
+        "孤独"
+      ],
+      "role": [
+        "扳道工",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "扳道工 小王子 大人世界 孤独 扳道工 | 第22章 | character | 【阅读解读·角色·扳道工】\n第二十二章的人物是铁路扳道工，负责旅客和列车调度。他与小王子谈论匆忙的旅行者，不是重复拧螺丝的扳手工。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "char_xushuzhe_01",
+      "chunk_type": "character",
+      "chapter": "全书",
+      "content": "【阅读解读·角色·叙述者（飞行员）】\n叙述者以飞行员的第一人称讲述相遇和思念。分析这个叙述角色时，不把小说中的每个细节直接当成作者本人的传记事实。",
+      "topic": [
+        "星星",
+        "离别",
+        "驯服"
+      ],
+      "role": [
+        "叙述者",
+        "读者",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "叙述者 读者 小王子 星星 离别 驯服 叙述者（飞行员） | 全书 | character | 【阅读解读·角色·叙述者（飞行员）】\n叙述者以飞行员的第一人称讲述相遇和思念。分析这个叙述角色时，不把小说中的每个细节直接当成作者本人的传记事实。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_aizere_01",
+      "chunk_type": "theme",
+      "chapter": "第21、8、24章",
+      "content": "【阅读解读·主题·爱与责任】\n照料玫瑰和狐狸关于负责的谈话，可以一起理解爱与责任。爱在故事里不仅是感受，也体现在付出的时间和具体照料。",
+      "topic": [
+        "爱",
+        "责任"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 爱 责任 爱与责任 | 第21、8、24章 | theme | 【阅读解读·主题·爱与责任】\n照料玫瑰和狐狸关于负责的谈话，可以一起理解爱与责任。爱在故事里不仅是感受，也体现在付出的时间和具体照料。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_aizere_2_01",
+      "chunk_type": "theme",
+      "chapter": "第20、21章",
+      "content": "【阅读解读·主题·爱与责任】\n小王子看过玫瑰园后，重新理解自己照料的那朵花。可以说共同经历赋予关系特殊意义，而不必把责任说成交换价值。",
+      "topic": [
+        "爱",
+        "责任",
+        "玫瑰与独一无二"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 爱 责任 玫瑰与独一无二 爱与责任 | 第20、21章 | theme | 【阅读解读·主题·爱与责任】\n小王子看过玫瑰园后，重新理解自己照料的那朵花。可以说共同经历赋予关系特殊意义，而不必把责任说成交换价值。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_gudu_01",
+      "chunk_type": "theme",
+      "chapter": "第2、17、20章",
+      "content": "【阅读解读·主题·孤独】\n沙漠和人群都可能与孤独相连。蛇与小王子的对话提供了这一线索，但孤独不必被浪漫化为建立关系的必要条件。",
+      "topic": [
+        "孤独"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 孤独 孤独 | 第2、17、20章 | theme | 【阅读解读·主题·孤独】\n沙漠和人群都可能与孤独相连。蛇与小王子的对话提供了这一线索，但孤独不必被浪漫化为建立关系的必要条件。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_gudu_2_01",
+      "chunk_type": "theme",
+      "chapter": "第10-23章",
+      "content": "【阅读解读·主题·孤独】\n几位星球居民专注于各自的事情，交流十分有限。可以讨论忙碌与孤独之间的关系，不能断言每个人都因孤独才从事自己的工作。",
+      "topic": [
+        "孤独",
+        "大人世界"
+      ],
+      "role": [
+        "小王子",
+        "国王",
+        "酒鬼",
+        "商人"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 国王 酒鬼 商人 孤独 大人世界 孤独 | 第10-23章 | theme | 【阅读解读·主题·孤独】\n几位星球居民专注于各自的事情，交流十分有限。可以讨论忙碌与孤独之间的关系，不能断言每个人都因孤独才从事自己的工作。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_chengzhang_01",
+      "chunk_type": "theme",
+      "chapter": "第7-26章",
+      "content": "【阅读解读·主题·成长】\n小王子逐渐从玫瑰的话语转向理解照料中的意义。成长可以被理解为看事情的方式发生变化。",
+      "topic": [
+        "成长",
+        "看见与用心"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 成长 看见与用心 成长 | 第7-26章 | theme | 【阅读解读·主题·成长】\n小王子逐渐从玫瑰的话语转向理解照料中的意义。成长可以被理解为看事情的方式发生变化。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_chengzhang_2_01",
+      "chunk_type": "theme",
+      "chapter": "第8、21、26章",
+      "content": "【阅读解读·主题·成长】\n离开玫瑰、遇见狐狸和告别飞行员，为理解成长提供了不同角度。故事没有把失去说成所有人成长的唯一道路。",
+      "topic": [
+        "成长",
+        "离别"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰",
+        "狐狸"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 狐狸 成长 离别 成长 | 第8、21、26章 | theme | 【阅读解读·主题·成长】\n离开玫瑰、遇见狐狸和告别飞行员，为理解成长提供了不同角度。故事没有把失去说成所有人成长的唯一道路。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_xunfu_01",
+      "chunk_type": "theme",
+      "chapter": "第21章",
+      "content": "【阅读解读·主题·驯服与联系】\n驯养使原本陌生的男孩和狐狸彼此特别。独一无二可以被理解为关系中的意义，而非客观上不存在其他男孩或狐狸。",
+      "topic": [
+        "驯服",
+        "爱",
+        "看见与用心"
+      ],
+      "role": [
+        "小王子",
+        "狐狸"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 驯服 爱 看见与用心 驯服与联系 | 第21章 | theme | 【阅读解读·主题·驯服与联系】\n驯养使原本陌生的男孩和狐狸彼此特别。独一无二可以被理解为关系中的意义，而非客观上不存在其他男孩或狐狸。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_xunfu_2_01",
+      "chunk_type": "theme",
+      "chapter": "第21章",
+      "content": "【阅读解读·主题·驯服与联系】\n耐心靠近与固定见面时间，是狐狸谈论联系时给出的例子。可以从中讨论可期待的相处，不把例子当成所有关系的规定。",
+      "topic": [
+        "驯服",
+        "看见与用心"
+      ],
+      "role": [
+        "狐狸",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "狐狸 小王子 驯服 看见与用心 驯服与联系 | 第21章 | theme | 【阅读解读·主题·驯服与联系】\n耐心靠近与固定见面时间，是狐狸谈论联系时给出的例子。可以从中讨论可期待的相处，不把例子当成所有关系的规定。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_xunfu_3_01",
+      "chunk_type": "theme",
+      "chapter": "第21章",
+      "content": "【阅读解读·主题·驯服与联系】\n狐狸明知离别会难过，仍珍惜麦田因朋友而有的意义。离别没有抹去相遇，但也不必否认难过本身。",
+      "topic": [
+        "驯服",
+        "离别",
+        "成长"
+      ],
+      "role": [
+        "狐狸",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "狐狸 小王子 驯服 离别 成长 驯服与联系 | 第21章 | theme | 【阅读解读·主题·驯服与联系】\n狐狸明知离别会难过，仍珍惜麦田因朋友而有的意义。离别没有抹去相遇，但也不必否认难过本身。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_daren_01",
+      "chunk_type": "theme",
+      "chapter": "第1、10-15、22-23章",
+      "content": "【阅读解读·主题·大人世界】\n国王、虚荣者、酒鬼、商人等人物各有所执着。作品以孩子的追问呈现这些执着的荒诞，而不是概括所有成年人都相同。",
+      "topic": [
+        "大人世界",
+        "童年",
+        "看见与用心"
+      ],
+      "role": [
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 大人世界 童年 看见与用心 大人世界 | 第1、10-15、22-23章 | theme | 【阅读解读·主题·大人世界】\n国王、虚荣者、酒鬼、商人等人物各有所执着。作品以孩子的追问呈现这些执着的荒诞，而不是概括所有成年人都相同。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_daren_2_01",
+      "chunk_type": "theme",
+      "chapter": "第1、3、13章",
+      "content": "【阅读解读·主题·大人世界】\n叙述者用房子、朋友和数字的例子，批评只凭数量衡量事物。数字可以有用，但不能代替对具体人的理解。",
+      "topic": [
+        "大人世界",
+        "看见与用心"
+      ],
+      "role": [
+        "小王子",
+        "叙述者"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 叙述者 大人世界 看见与用心 大人世界 | 第1、3、13章 | theme | 【阅读解读·主题·大人世界】\n叙述者用房子、朋友和数字的例子，批评只凭数量衡量事物。数字可以有用，但不能代替对具体人的理解。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_kanjian_01",
+      "chunk_type": "theme",
+      "chapter": "第21、24、25章",
+      "content": "【阅读解读·主题·看见与用心】\n狐狸的秘密强调用心看见。可结合玫瑰、麦田和井水理解这里的看见，不把自己的解释冒充逐字原文。",
+      "topic": [
+        "看见与用心",
+        "成长"
+      ],
+      "role": [
+        "狐狸",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "狐狸 小王子 看见与用心 成长 看见与用心 | 第21、24、25章 | theme | 【阅读解读·主题·看见与用心】\n狐狸的秘密强调用心看见。可结合玫瑰、麦田和井水理解这里的看见，不把自己的解释冒充逐字原文。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_kanjian_2_01",
+      "chunk_type": "theme",
+      "chapter": "全书",
+      "content": "【阅读解读·主题·看见与用心】\n用心看见可以被理解为愿意花时间注意具体的人和事。这是一种阅读解读，不是故事提供的心理学定律。",
+      "topic": [
+        "看见与用心",
+        "驯服",
+        "成长"
+      ],
+      "role": [
+        "小王子",
+        "狐狸"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 看见与用心 驯服 成长 看见与用心 | 全书 | theme | 【阅读解读·主题·看见与用心】\n用心看见可以被理解为愿意花时间注意具体的人和事。这是一种阅读解读，不是故事提供的心理学定律。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_libie_01",
+      "chunk_type": "theme",
+      "chapter": "第8、21、26章",
+      "content": "【阅读解读·主题·离别与归途】\n几次告别让小王子的牵挂更清晰。可以讨论关系中的分离，而不把告别简单说成轻松或必然有好结果。",
+      "topic": [
+        "离别",
+        "成长"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰",
+        "狐狸",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 狐狸 飞行员 离别 成长 离别与归途 | 第8、21、26章 | theme | 【阅读解读·主题·离别与归途】\n几次告别让小王子的牵挂更清晰。可以讨论关系中的分离，而不把告别简单说成轻松或必然有好结果。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_libie_2_01",
+      "chunk_type": "theme",
+      "chapter": "第26-27章",
+      "content": "【阅读解读·主题·离别与归途】\n小王子表达了回到玫瑰身边的愿望，叙述者却没有给出可核实的归途结果。开放结局允许不同理解。",
+      "topic": [
+        "离别",
+        "成长",
+        "爱"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰",
+        "狐狸",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 狐狸 飞行员 离别 成长 爱 离别与归途 | 第26-27章 | theme | 【阅读解读·主题·离别与归途】\n小王子表达了回到玫瑰身边的愿望，叙述者却没有给出可核实的归途结果。开放结局允许不同理解。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_meiguiwei_01",
+      "chunk_type": "theme",
+      "chapter": "第20、21章",
+      "content": "【阅读解读·主题·玫瑰与独一无二】\n玫瑰的特殊来自小王子对她的照料和倾听。这让独一无二与共同经历有关，而不是与外貌排名有关。",
+      "topic": [
+        "爱",
+        "玫瑰与独一无二",
+        "驯服"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰",
+        "狐狸"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 狐狸 爱 玫瑰与独一无二 驯服 玫瑰与独一无二 | 第20、21章 | theme | 【阅读解读·主题·玫瑰与独一无二】\n玫瑰的特殊来自小王子对她的照料和倾听。这让独一无二与共同经历有关，而不是与外貌排名有关。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_meiguiwei_2_01",
+      "chunk_type": "theme",
+      "chapter": "第20、21章",
+      "content": "【阅读解读·主题·玫瑰与独一无二】\n玫瑰园里的花与B612上的花相像，小王子却逐渐认识到关系的差异。比较外表不能说明一段联系的全部。",
+      "topic": [
+        "玫瑰与独一无二",
+        "爱",
+        "看见与用心"
+      ],
+      "role": [
+        "小王子",
+        "狐狸",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 狐狸 玫瑰 玫瑰与独一无二 爱 看见与用心 玫瑰与独一无二 | 第20、21章 | theme | 【阅读解读·主题·玫瑰与独一无二】\n玫瑰园里的花与B612上的花相像，小王子却逐渐认识到关系的差异。比较外表不能说明一段联系的全部。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_meiguiwei_3_01",
+      "chunk_type": "theme",
+      "chapter": "第21章",
+      "content": "【阅读解读·主题·玫瑰与独一无二】\n狐狸谈到彼此需要。可以把这种需要理解为相处形成的牵挂，但不把依赖或控制当作爱的证明。",
+      "topic": [
+        "玫瑰与独一无二",
+        "驯服",
+        "爱"
+      ],
+      "role": [
+        "狐狸",
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "狐狸 小王子 玫瑰 玫瑰与独一无二 驯服 爱 玫瑰与独一无二 | 第21章 | theme | 【阅读解读·主题·玫瑰与独一无二】\n狐狸谈到彼此需要。可以把这种需要理解为相处形成的牵挂，但不把依赖或控制当作爱的证明。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_shamo_01",
+      "chunk_type": "theme",
+      "chapter": "第24章",
+      "content": "【阅读解读·主题·沙漠与井】\n沙漠与隐藏的水井形成对照，可以引出关于希望和看不见的价值的讨论。这里的象征属于解读。",
+      "topic": [
+        "沙漠与井",
+        "孤独",
+        "看见与用心"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 沙漠与井 孤独 看见与用心 沙漠与井 | 第24章 | theme | 【阅读解读·主题·沙漠与井】\n沙漠与隐藏的水井形成对照，可以引出关于希望和看不见的价值的讨论。这里的象征属于解读。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_shamo_2_01",
+      "chunk_type": "theme",
+      "chapter": "第24-25章",
+      "content": "【阅读解读·主题·沙漠与井】\n寻找水井、打水和一起饮水，使普通的水带上共同经历的意义。不要把这个过程增写成资料没有的具体事件。",
+      "topic": [
+        "沙漠与井",
+        "看见与用心",
+        "驯服"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 沙漠与井 看见与用心 驯服 沙漠与井 | 第24-25章 | theme | 【阅读解读·主题·沙漠与井】\n寻找水井、打水和一起饮水，使普通的水带上共同经历的意义。不要把这个过程增写成资料没有的具体事件。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_xingxing_01",
+      "chunk_type": "theme",
+      "chapter": "第26-27章",
+      "content": "【阅读解读·主题·星星】\n小王子让飞行员在仰望星星时想起笑声。星星因此成为思念的线索，改变的是观看者的感受。",
+      "topic": [
+        "星星",
+        "离别",
+        "爱"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 星星 离别 爱 星星 | 第26-27章 | theme | 【阅读解读·主题·星星】\n小王子让飞行员在仰望星星时想起笑声。星星因此成为思念的线索，改变的是观看者的感受。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_xingxing_2_01",
+      "chunk_type": "theme",
+      "chapter": "第26-27章",
+      "content": "【阅读解读·主题·星星】\n故事谈到不同人看星星时有不同的意义。可由此理解关系如何影响观看，不补写未提供的原话。",
+      "topic": [
+        "星星",
+        "看见与用心",
+        "离别"
+      ],
+      "role": [
+        "小王子",
+        "飞行员"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 飞行员 星星 看见与用心 离别 星星 | 第26-27章 | theme | 【阅读解读·主题·星星】\n故事谈到不同人看星星时有不同的意义。可由此理解关系如何影响观看，不补写未提供的原话。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_zhanyou_01",
+      "chunk_type": "theme",
+      "chapter": "第13、23、24章",
+      "content": "【阅读解读·主题·占有与珍惜】\n数星星与照料玫瑰的对照，提出拥有与有用的问题。珍惜可以体现为照料，作品并没有把所有物质拥有都等同于冷漠。",
+      "topic": [
+        "占有与珍惜",
+        "爱",
+        "责任"
+      ],
+      "role": [
+        "商人",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "商人 小王子 占有与珍惜 爱 责任 占有与珍惜 | 第13、23、24章 | theme | 【阅读解读·主题·占有与珍惜】\n数星星与照料玫瑰的对照，提出拥有与有用的问题。珍惜可以体现为照料，作品并没有把所有物质拥有都等同于冷漠。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_zhanyou_2_01",
+      "chunk_type": "theme",
+      "chapter": "第20、23章",
+      "content": "【阅读解读·主题·占有与珍惜】\n小王子重新看待花园里的玫瑰，是因为他对自己的花有具体照料。关系的特殊不必通过贬低其他花来证明。",
+      "topic": [
+        "占有与珍惜",
+        "爱",
+        "责任",
+        "玫瑰与独一无二"
+      ],
+      "role": [
+        "小王子",
+        "玫瑰"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "小王子 玫瑰 占有与珍惜 爱 责任 玫瑰与独一无二 占有与珍惜 | 第20、23章 | theme | 【阅读解读·主题·占有与珍惜】\n小王子重新看待花园里的玫瑰，是因为他对自己的花有具体照料。关系的特殊不必通过贬低其他花来证明。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_tongnian_01",
+      "chunk_type": "theme",
+      "chapter": "第1、27章",
+      "content": "【阅读解读·主题·童年与遗忘】\n献词和童年画作让作品反复回望孩子的眼光。可以讨论成长后的遗忘，但不把童年说成天然无忧无虑。",
+      "topic": [
+        "童年",
+        "大人世界",
+        "成长"
+      ],
+      "role": [
+        "飞行员",
+        "小王子"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 童年 大人世界 成长 童年与遗忘 | 第1、27章 | theme | 【阅读解读·主题·童年与遗忘】\n献词和童年画作让作品反复回望孩子的眼光。可以讨论成长后的遗忘，但不把童年说成天然无忧无虑。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    },
+    {
+      "chunk_id": "theme_tongnian_2_01",
+      "chunk_type": "theme",
+      "chapter": "全书",
+      "content": "【阅读解读·主题·童年与遗忘】\n飞行员的回忆和结尾的请求，把小王子的故事交给读者。可以把它理解为保存好奇与记忆的一种邀请。",
+      "topic": [
+        "童年",
+        "成长",
+        "看见与用心"
+      ],
+      "role": [
+        "飞行员",
+        "小王子",
+        "读者"
+      ],
+      "source_name": "little_prince_reading_notes",
+      "text": "飞行员 小王子 读者 童年 成长 看见与用心 童年与遗忘 | 全书 | theme | 【阅读解读·主题·童年与遗忘】\n飞行员的回忆和结尾的请求，把小王子的故事交给读者。可以把它理解为保存好奇与记忆的一种邀请。",
+      "source_url": "https://gutenberg.net.au/ebooks03/0300771h.html"
+    }
   ]
 }

@@ -168,3 +168,8 @@ copy .\.env.example .\.env
 测试：`python -m unittest discover -s tests -p test_memory_security.py -v`。
 默认使用临时 SQLite 测试身份与画像，会话 SQL 使用本地适配器；设置专用 `TEST_DATABASE_URL` 后使用真实 Postgres。
 只允许把专用测试数据库填入该变量。GitHub Actions 会运行两种模式，不调用真实模型或下载权重。
+
+
+## 2026-10-23 全量资料发布
+
+生产使用 `RAG_RETRIEVAL_MODE=lexical`，直接读取 191 条已校订梗概/解读，另保留 3 条核验聊天摘要。`rag/sources/chapters.json` 与 `analysis.json` 是校订来源，运行 `python scripts/build_chunk_meta.py` 生成 `chunk_meta.json` 与 `data.json`。梗概和阅读解读不作为逐字引文；来源链接随元数据保留。不要用旧的 `gen_chapters.py` 覆盖已校订章节。仅在选择向量模式时需要重新建索引，旧索引不能与新资料混用。

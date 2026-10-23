@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from rag.chunk_meta import ensure_chunk_metadata
+from rag.chunk_meta import ensure_chunk_metadata, passage_body
 from rag.prompts.text import safe_message_text
 
 
@@ -50,23 +50,40 @@ class RAGPromptBuilder:
             meta = ensure_chunk_metadata(c)
             cid = meta["chunk_id"]
             src_name = meta["source_name"]
-            text = str(c.get("text", ""))
+            body = passage_body(c)
+            meta_bits: list[str] = []
+            if c.get("chapter"):
+                meta_bits.append(f"chapter={c.get('chapter')}")
+            if c.get("topic"):
+                topics = c.get("topic")
+                if isinstance(topics, list):
+                    meta_bits.append(f"topic={','.join(str(t) for t in topics)}")
+                else:
+                    meta_bits.append(f"topic={topics}")
+            if c.get("role"):
+                roles = c.get("role")
+                if isinstance(roles, list):
+                    meta_bits.append(f"role={','.join(str(r) for r in roles)}")
+                else:
+                    meta_bits.append(f"role={roles}")
+            if c.get("chunk_type"):
+                meta_bits.append(f"chunk_type={c.get('chunk_type')}")
             body_lines.append(f"参考内容：{c.get('chapter') or '相关资料'}" if conversational else f"[{label}] chunk_id={cid} source_name={src_name}")
-            body_lines.append(text)
+            if meta_bits and not conversational:
+                body_lines.append(" ".join(meta_bits))
+            body_lines.append(body)
             body_lines.append("")
             citations.append(
                 {
                     "label": label,
                     "chunk_id": cid,
                     "source_name": src_name,
-                    "text": safe_message_text(text, limit=self.citation_text_limit),
+                    "text": safe_message_text(body, limit=self.citation_text_limit),
                 }
             )
-
             for key in ("chapter", "source_url", "chunk_type"):
                 if c.get(key):
                     citations[-1][key] = c[key]
 
         rag_block = safe_message_text("\n".join(header_lines + body_lines), limit=self.rag_block_limit)
         return rag_block, citations
-
