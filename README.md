@@ -50,7 +50,9 @@
 - **`DATABASE_URL`**：Postgres 连接串（Railway/Render 通常会提供）
 - **`CORS_ORIGINS`**：允许访问 API 的前端域名（逗号分隔）。例如：
   - `CORS_ORIGINS=https://<user>.github.io,https://<your-vercel-domain>`
-- （可选）**`DEEPSEEK_API_KEY`**：配置后端生成更“因你而异”的回信；不配置则使用固定兜底回信。
+- **`DEEPSEEK_API_KEY`**：聊天必需；未配置或模型不可用时，`/api/chat` 返回 503，不生成替代回复。
+- **`DEEPSEEK_MODEL`**：默认 `deepseek-flash`，可由环境变量覆盖。
+- **`DEEPSEEK_API_URL`**：完整对话接口地址，例如 `https://api.deepseek.com/chat/completions`。
 
 ## RAG（知识库检索 + 重排 + 引用）
 

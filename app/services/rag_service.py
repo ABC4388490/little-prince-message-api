@@ -37,6 +37,9 @@ def merge_rag(
         return msgs, []
 
     query = user_msgs[-1]["content"]
+    from app.services.agent_service import is_book_query
+    if not is_book_query(query) and is_book_query(query, msgs):
+        query = " ".join(m["content"] for m in user_msgs[-4:])
     citations: list[dict[str, Any]] = []
     try:
         orch = default_rag_orchestrator()

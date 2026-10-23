@@ -13,6 +13,7 @@ from app.api.common import validate_messages_list
 from app.db import init_databases
 from app.services.analyze_pipeline import run_analyze
 from app.services.chat_pipeline import run_chat
+from app.services.llm_service import ChatUnavailable
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
@@ -62,7 +63,10 @@ async def post_api_chat(body: ChatRequestBody):
         msgs = validate_messages_list(body.messages)
     except ValueError as e:
         raise HTTPException(status_code=400, detail=str(e)) from e
-    return run_chat(msgs)
+    try:
+        return run_chat(msgs)
+    except ChatUnavailable as e:
+        raise HTTPException(status_code=503, detail=str(e)) from e
 
 
 class AnalyzeBody(BaseModel):
