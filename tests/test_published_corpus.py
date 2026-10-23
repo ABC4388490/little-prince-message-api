@@ -42,3 +42,11 @@ def test_expanded_material_is_available_without_loading_vector_models(monkeypatc
         rows=lexical_candidates('扳道工调度列车')
     assert any(r['chunk_id'].startswith('passage_22_') for r in rows)
     assert decide_strategy('扳道工在干什么？').use_rag
+
+def test_expanded_story_questions_retrieve_but_daily_outings_do_not():
+    for text in ['你在沙漠遇到的那朵三片花瓣的小花，跟你说了什么？',
+                 '你到了高山上，听见了什么？', '解渴药丸能省下多少时间？',
+                 '玫瑰园里有多少玫瑰？']:
+        assert decide_strategy(text).use_rag, text
+    for text in ['我今天去公园看花了', '周末想去爬高山', '我在沙漠旅游时听到了风声']:
+        assert not decide_strategy(text).use_rag, text
