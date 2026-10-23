@@ -26,7 +26,7 @@ class DeepSeekChatGenerator:
         self.api_url = (api_url or os.environ.get("DEEPSEEK_API_URL", "")).strip() or (
             "https://api.deepseek.com/v1/chat/completions"
         )
-        self.model = (model or os.environ.get("DEEPSEEK_MODEL", "")).strip() or "deepseek-chat"
+        self.model = (model or os.environ.get("DEEPSEEK_MODEL", "")).strip() or "deepseek-flash"
         self.timeout = timeout
 
     def generate(

@@ -7,6 +7,7 @@ from flask import Blueprint, jsonify, request
 from app.api.common import require_messages_json
 from app.services.analyze_pipeline import run_analyze
 from app.services.chat_pipeline import run_chat
+from app.services.llm_service import ChatUnavailable
 
 bp = Blueprint("chat", __name__, url_prefix="/api")
 
@@ -18,7 +19,10 @@ def chat_messages() -> Any:
     except ValueError as e:
         return jsonify({"error": str(e)}), 400
 
-    out = run_chat(messages)
+    try:
+        out = run_chat(messages)
+    except ChatUnavailable as e:
+        return jsonify({"error": str(e), "code": "chat_unavailable"}), 503
     return jsonify(out), 200
 
 

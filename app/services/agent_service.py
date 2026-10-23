@@ -45,20 +45,26 @@ _PHILOSOPHY_KWS: tuple[str, ...] = (
     "命运",
 )
 
-_TONE_EMOTION = (
-    "【语气-温柔】请以陪伴为先：语气更轻、更暖，先接住对方的感受，少讲道理、少给建议；"
-    "可用一两句意象（星星、风、夜）呼应，结尾用很轻的问句留白，不要列清单。"
-)
+_TONE_EMOTION = "回应对方明确说出的处境，不凭空猜心事；不急着建议，不强加比喻和结尾提问。"
+_TONE_PHILOSOPHY = "先直接回答问题，需要时解释，不用隐喻或反问代替回答。"
+_TONE_GENERAL = "像朋友自然接话，问候就回应问候，不把闲聊变成心理辅导。"
 
-_TONE_PHILOSOPHY = (
-    "【语气-哲理】请在温柔中略带思辨：可用隐喻与留白，不必下结论；"
-    "避免说教与口号，避免长段排比；可轻轻反问，引导对方自己摸到一个方向。"
-)
 
-_TONE_GENERAL = (
-    "【语气-普通】像朋友自然聊天：回答简洁、口语一点，不必强行诗意；"
-    "若对方只是打招呼或闲聊，可同样轻松回应。"
-)
+def is_book_query(text: str, messages: Sequence[dict[str, str]] = ()) -> bool:
+    import re
+    book = r"原著|这本书|书[里中]|第.{0,5}章|驯[养服]|点灯人|地理学家|(?:小王子|狐狸|玫瑰|国王|酒鬼|商人|蛇).{0,16}(?:说|为什么|为何|意思|象征|离开)|(?:为什么|为何|怎么).{0,16}(?:狐狸|玫瑰|小王子)"
+    if re.search(book, text):
+        return True
+    if re.match(r"^(为什么[呢呀啊]?[？?]?$|然后呢|后来呢|那[它他她]|这句话|继续讲|再解释)", text):
+        previous = [m for m in messages if m.get("role") == "user"][:-1]
+        # Walk through short follow-ups; stop at a real topic change.
+        for m in reversed(previous):
+            content = m.get("content", "").strip()
+            if re.search(book, content):
+                return True
+            if not re.match(r"^(为什么[呢呀啊]?[？?]?$|然后呢|后来呢|那[它他她]|这句话|继续讲|再解释)", content):
+                break
+    return False
 
 
 @dataclass(frozen=True)
@@ -68,18 +74,18 @@ class AgentDecision:
     tone_system_append: str
 
 
-def decide_strategy(user_input: str) -> AgentDecision:
+def decide_strategy(user_input: str, messages: Sequence[dict[str, str]] = ()) -> AgentDecision:
     t = (user_input or "").strip()
     if not t:
         return AgentDecision(STRATEGY_GENERAL, False, _TONE_GENERAL)
 
     if any(k in t for k in _EMOTION_KWS):
-        return AgentDecision(STRATEGY_EMOTION, True, _TONE_EMOTION)
+        return AgentDecision(STRATEGY_EMOTION, is_book_query(t, messages), _TONE_EMOTION)
 
     if any(k in t for k in _PHILOSOPHY_KWS):
-        return AgentDecision(STRATEGY_PHILOSOPHY, True, _TONE_PHILOSOPHY)
+        return AgentDecision(STRATEGY_PHILOSOPHY, is_book_query(t, messages), _TONE_PHILOSOPHY)
 
-    return AgentDecision(STRATEGY_GENERAL, False, _TONE_GENERAL)
+    return AgentDecision(STRATEGY_GENERAL, is_book_query(t, messages), _TONE_GENERAL)
 
 
 def merge_agent_tone(messages: Sequence[dict[str, str]], decision: AgentDecision) -> list[dict[str, str]]:
@@ -94,6 +100,8 @@ def merge_agent_tone(messages: Sequence[dict[str, str]], decision: AgentDecision
             continue
         msgs.append({"role": role, "content": content})
 
+    # The server owns the character; client context is supplemental.
+    msgs.insert(0, {"role": "system", "content": SYSTEM_PROMPT})
     tone = safe_message_text(decision.tone_system_append, limit=400)
     if not tone:
         return msgs
