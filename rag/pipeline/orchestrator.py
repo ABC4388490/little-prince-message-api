@@ -7,6 +7,7 @@ Optional `RAGOrchestrator` bundles retrieval + prompt building for higher-level 
 from __future__ import annotations
 
 from typing import Any
+import os
 
 from rag.chunk_meta import ensure_chunk_metadata
 from rag.config import faiss_retrieval_top_k, rerank_output_top_k
@@ -25,7 +26,10 @@ class RetrievalPipeline:
         k_faiss = faiss_retrieval_top_k()
         k_out = rerank_output_top_k()
         candidates = retrieve_candidates(query, top_k=k_faiss)
-        selected = self._reranker.rerank(query, candidates, final_k=k_out)
+        if os.environ.get("RAG_RETRIEVAL_MODE", "").strip().lower() == "lexical":
+            selected = candidates[:k_out]
+        else:
+            selected = self._reranker.rerank(query, candidates, final_k=k_out)
         return [ensure_chunk_metadata(x) for x in selected]
 
 
