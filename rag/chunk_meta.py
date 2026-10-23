@@ -1,10 +1,17 @@
 """
 Canonical chunk metadata for the RAG pipeline (storage, retrieval, rerank, LLM, API).
 
-Each chunk record uses:
-  - chunk_id: stable id (e.g. kb_000)
+Required for indexing / retrieval:
+  - chunk_id: stable id (e.g. passage_21_02, char_fox_01)
   - source_name: logical source / corpus label (e.g. little_prince_kb)
-  - text: passage body
+  - text: passage body used for embedding (often includes chapter/topic/role keywords)
+
+Extended fields (optional, preserved when present):
+  - content: 【原文】+【释义】 or analysis body
+  - chapter: chapter title or 跨章 / 全书
+  - topic: list of theme tags (e.g. 爱, 孤独)
+  - role: list of characters
+  - chunk_type: passage | character | theme
 
 Legacy JSON may use `source` instead of `source_name`; readers normalize both.
 """
@@ -39,3 +46,11 @@ def ensure_chunk_metadata(d: dict[str, Any]) -> dict[str, Any]:
     out["chunk_id"] = cid
     out["source_name"] = source_name_from_dict(out)
     return out
+
+
+def passage_body(d: dict[str, Any]) -> str:
+    """Text shown to the LLM: prefer content, else text."""
+    content = str(d.get("content", "") or "").strip()
+    if content:
+        return content
+    return str(d.get("text", "") or "").strip()

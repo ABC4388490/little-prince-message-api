@@ -15,6 +15,8 @@ import faiss
 import numpy as np
 
 from rag.chunk_meta import DEFAULT_SOURCE_NAME, source_name_from_dict
+
+_EXTRA_META_KEYS = ("content", "chapter", "topic", "role", "chunk_type", "source_url")
 from rag.config import CHUNK_META_PATH, CHUNK_ORDER_PATH, INDEX_PATH
 from rag.embedding.bi_encoder import SentenceBiEncoder
 from rag.trace import rag_debug
@@ -23,22 +25,31 @@ from rag.vectorstore.faiss_ip import FaissIPVectorStore
 logger = logging.getLogger(__name__)
 
 
-def _load_meta_rows() -> Optional[list[dict[str, str]]]:
+def _row_from_meta(i: int, row: dict) -> dict[str, Any]:
+    t = str(row.get("text", "")).strip()
+    cid = str(row.get("chunk_id") or f"kb_{i:03d}").strip()
+    src = source_name_from_dict(row, default=DEFAULT_SOURCE_NAME)
+    out: dict[str, Any] = {"chunk_id": cid, "source_name": src, "text": t}
+    for key in _EXTRA_META_KEYS:
+        if key in row and row[key] is not None:
+            out[key] = row[key]
+    return out
+
+
+def _load_meta_rows() -> Optional[list[dict[str, Any]]]:
     if os.path.isfile(CHUNK_META_PATH):
         try:
             with open(CHUNK_META_PATH, "r", encoding="utf-8") as f:
                 raw = json.load(f)
             if not isinstance(raw, list) or not raw:
                 return None
-            out: list[dict[str, str]] = []
+            out: list[dict[str, Any]] = []
             for i, row in enumerate(raw):
                 if isinstance(row, dict):
                     t = str(row.get("text", "")).strip()
                     if not t:
                         continue
-                    cid = str(row.get("chunk_id") or f"kb_{i:03d}").strip()
-                    src = source_name_from_dict(row, default=DEFAULT_SOURCE_NAME)
-                    out.append({"chunk_id": cid, "source_name": src, "text": t})
+                    out.append(_row_from_meta(i, row))
                 elif isinstance(row, str) and row.strip():
                     out.append(
                         {
@@ -71,7 +82,7 @@ class FaissRetriever:
         self,
         encoder: SentenceBiEncoder,
         store: FaissIPVectorStore,
-        meta: list[dict[str, str]],
+        meta: list[dict[str, Any]],
     ) -> None:
         if int(store.ntotal) != len(meta):
             raise ValueError(f"index ntotal {store.ntotal} != len(meta) {len(meta)}")
@@ -128,15 +139,17 @@ class FaissRetriever:
                 continue
             seen.add(idx)
             row = self._meta[idx]
-            out.append(
-                {
-                    "row_index": idx,
-                    "chunk_id": row["chunk_id"],
-                    "source_name": row["source_name"],
-                    "text": row["text"],
-                    "score": float(scores[0][rank]),
-                }
-            )
+            hit: dict[str, Any] = {
+                "row_index": idx,
+                "chunk_id": row["chunk_id"],
+                "source_name": row["source_name"],
+                "text": row["text"],
+                "score": float(scores[0][rank]),
+            }
+            for key in _EXTRA_META_KEYS:
+                if key in row:
+                    hit[key] = row[key]
+            out.append(hit)
         if out:
             hits = ", ".join(f"{h['chunk_id']}:{h['score']:.3f}" for h in out)
             rag_debug(logger, "faiss top-%s: %s", len(out), hits)
