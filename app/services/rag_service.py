@@ -14,6 +14,7 @@ def merge_rag(
     messages: Sequence[dict[str, str]],
     *,
     use_rag: bool = True,
+    conversational: bool = False,
 ) -> tuple[list[dict[str, str]], list[dict[str, Any]]]:
     """
     When use_rag: retrieval pipeline → prompt builder → inject grounding into first system.
@@ -37,14 +38,17 @@ def merge_rag(
         return msgs, []
 
     query = user_msgs[-1]["content"]
-    from app.services.agent_service import is_book_query
-    if not is_book_query(query) and is_book_query(query, msgs):
+    from app.services.agent_service import is_book_followup, is_book_query
+    if is_book_followup(query) and is_book_query(query, msgs):
         query = " ".join(m["content"] for m in user_msgs[-4:])
     citations: list[dict[str, Any]] = []
     try:
         orch = default_rag_orchestrator()
         selected = orch.retrieve_and_rank(query)
-        rag_block, citations = orch.build_prompt(selected)
+        if conversational:
+            from rag.chat_context import supplement_chat_context
+            selected = supplement_chat_context(query, selected)
+        rag_block, citations = orch.build_prompt(selected, conversational=conversational)
     except Exception:
         logger.exception("merge_rag failed (query=%.80s)", query)
         return msgs, []

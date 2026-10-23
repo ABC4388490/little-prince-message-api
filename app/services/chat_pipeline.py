@@ -24,7 +24,7 @@ def run_chat(messages: list[dict[str, str]]) -> dict[str, Any]:
     decision = decide_strategy(last_user, messages)
 
     msgs = merge_agent_tone(messages, decision)
-    msgs, citations = merge_rag(msgs, use_rag=decision.use_rag)
+    msgs, citations = merge_rag(msgs, use_rag=decision.use_rag, conversational=True)
     reply = complete_chat(msgs, skip_rag=True, strict=True)
 
     return {

@@ -19,7 +19,7 @@ class RAGPromptBuilder:
         self.rag_block_limit = rag_block_limit
         self.citation_text_limit = citation_text_limit
 
-    def build(self, selected: list[dict[str, Any]]) -> tuple[str, list[dict[str, Any]]]:
+    def build(self, selected: list[dict[str, Any]], *, conversational: bool = False) -> tuple[str, list[dict[str, Any]]]:
         if not selected:
             return "", []
 
@@ -32,6 +32,17 @@ class RAGPromptBuilder:
             "- 可同时保留 [S1] 等与摘录编号对照；chunk_id 与 source_name 为强制引用信息，不可省略。",
             "",
         ]
+        if conversational:
+            header_lines = [
+                "【聊天参考】这些资料帮助你理解原著，不改变前面的朋友聊天语气。先回答用户当前问题，通常 1-4 句。",
+                "- 具体人物、情节、数字和原话要有资料依据；内容梗概和释义不是逐字原文，不能加引号冒充原话。",
+                "- 对含义和为什么，可以结合资料与上下文作合理解释。用‘我觉得’或‘可以这样理解’自然区分解读与原文，不因资料没有逐字写出解释就拒答。",
+                "- 转述不能改变事实、因果和时间关系：不要把静态特征说成发生过的变化，不把假设举例说成实际经历，不为解释补造细节。",
+                "- 只有具体事实确实无法确定时，简短说明哪一点不知道，再回答有依据的部分；不要把‘当前摘录不足’当成每次开头。用户提出资料里没有的前提，也不要当作原著事实。",
+                "- 正文不写资料编号、内部字段、数据库名、引用汇总或参考标签。引用信息由接口单独提供；用户问出处时，可以说自然的章节名称。",
+                "- 短追问接着上一轮解释，不重复定义；换回日常话题就跟着聊，不强行继续讲故事。",
+                "",
+            ]
         body_lines: list[str] = []
         citations: list[dict[str, Any]] = []
         for i, c in enumerate(selected, start=1):
@@ -40,7 +51,7 @@ class RAGPromptBuilder:
             cid = meta["chunk_id"]
             src_name = meta["source_name"]
             text = str(c.get("text", ""))
-            body_lines.append(f"[{label}] chunk_id={cid} source_name={src_name}")
+            body_lines.append(f"参考内容：{c.get('chapter') or '相关资料'}" if conversational else f"[{label}] chunk_id={cid} source_name={src_name}")
             body_lines.append(text)
             body_lines.append("")
             citations.append(
@@ -52,5 +63,10 @@ class RAGPromptBuilder:
                 }
             )
 
+            for key in ("chapter", "source_url", "chunk_type"):
+                if c.get(key):
+                    citations[-1][key] = c[key]
+
         rag_block = safe_message_text("\n".join(header_lines + body_lines), limit=self.rag_block_limit)
         return rag_block, citations
+
